@@ -1,5 +1,5 @@
 # Treinamento realizado na empresa Adderi em São Leopoldo/RS sobre a tecnologia Magic xpa
-## Aprendizado e práticas com a plataforma de desenvolvimento low-code Magic xpa
+## Aprendizado e práticas com a plataforma de desenvolvimento low-code Magic XPA
 
 <p>
   <strong>Magic xpa</strong> é uma plataforma de desenvolvimento <em>low-code</em> que permite criar aplicações empresariais multi-dispositivo de forma rápida e eficiente, com pouco código manual. Ela facilita a integração com diferentes sistemas, oferece ferramentas para desenvolvimento visual e agiliza a entrega de soluções corporativas.

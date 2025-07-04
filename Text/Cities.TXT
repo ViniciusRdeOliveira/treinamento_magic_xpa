@@ -1,0 +1,65 @@
+    10    101 Brasilia
+    10    102 Rio de Janeiro
+    10    103 Sao Paulo
+    11    201 Edmonton
+    11    202 Vancouver
+    11    203 Winnipeg
+    11    204 Halifax
+    11    205 Ottawa
+    11    206 Toronto
+    11    207 Montreal
+     6    301 Beijing
+     6    302 Hong Kong
+     6    303 Shanghai
+     3    401 Paris
+    12    501 Berlin
+    12    502 Frankfurt
+    13    601 Athens
+    14    701 Budapest
+    15    801 Kolkata
+    15    802 Mumbai
+    15    803 New Delhi
+     1    901 Tel Aviv
+     1    902 Jerusalem
+     1    903 Haifa
+     1    904 Eilat
+     1    905 Ramat-Gan
+     1    906 Givatayim
+     2   1001 Rome
+     2   1002 Verona
+     2   1003 Venice
+     2   1004 Florence
+     4   1101 Tokyo
+    23   1201 Amsterdam
+     5   1301 Wellington
+    16   1401 Warsaw
+    18   1501 Bucharest
+    17   1601 Kamchatka
+    17   1602 Moscow
+    17   1603 Vladivostok
+     7   1701 Cape Town
+     7   1702 Johannesburg
+    19   1801 Barcelona
+    19   1802 Madrid
+    20   1901 Geneva
+    20   1902 Zurich
+    21   2001 Bangkok
+     9   2101 London
+    22   2201 Montgomery
+    22   2202 Phoenix
+    22   2203 Los Angeles
+    22   2204 San Francisco
+    22   2205 Denver
+    22   2206 Washington
+    22   2207 Atlanta
+    22   2208 Honolulu
+    22   2209 Chicago
+    22   2210 Indianapolis
+    22   2211 New Orleans
+    22   2212 Boston
+    22   2213 Detroit
+    22   2214 Minneapolis
+    22   2215 New York
+    22   2216 Philadelphia
+    22   2217 Houston
+    22   2218 Seattle

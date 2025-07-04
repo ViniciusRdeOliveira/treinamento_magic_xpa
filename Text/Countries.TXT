@@ -1,0 +1,23 @@
+     1 Israel
+     2 Italy
+     3 France
+     4 Japan
+     5 New Zealand
+     6 China
+     7 South Africa
+     8 Korea
+     9 United Kingdom
+    10 Brazil
+    11 Canada
+    12 Germany
+    13 Greece
+    14 Hungary
+    15 India
+    16 Poland
+    17 Russia
+    18 Romania
+    19 Spain
+    20 Switzerland
+    21 Thailand
+    22 USA
+    23 Netherlands

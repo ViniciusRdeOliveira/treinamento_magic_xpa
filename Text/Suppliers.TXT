@@ -1,0 +1,3 @@
+        1 Logitech             702-2693457 Kaiser Drive Fremont 10  56.00
+        2 Sony                 800-4887669 8281 NW 107 Terrace  19  39.00
+        3 Hewlett-Packard      650-857-150 Hanover Street       16  78.00
