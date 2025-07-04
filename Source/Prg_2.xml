@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="My First Program" ISN_2="1" LastIsn="1" id="2">
-          <LastModified _date="739436" _time="35924" date="04/07/2025" time="09:58:44"/>
+          <LastModified _date="739436" _time="37522" date="04/07/2025" time="10:25:22"/>
           <Public val="RunMe"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -452,12 +452,32 @@
               <LogicLine>
                 <Update FlowIsn="22">
                   <FieldID val="4"/>
+                  <WithValue val="5"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
-                  <Condition val="Y"/>
+                  <Condition Exp="6"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="23">
+                  <FieldID val="5"/>
+                  <WithValue val="5"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition Exp="6"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="24" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Cidade e Endereço foram apagados" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition Exp="6"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -770,6 +790,10 @@
           <Expression id="5">
             <ExpSyntax val="''"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="6">
+            <ExpSyntax val="{0,12} &lt;> ''"/>
+            <ExpAttribute val="B"/>
           </Expression>
         </Expressions>
       </Task>
