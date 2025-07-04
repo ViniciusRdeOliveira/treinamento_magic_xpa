@@ -30,6 +30,11 @@
         <Type Val="2"/>
         <HandlerIsn Val="6"/>
       </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="7"/>
+      </ExpandedItem>
     </Program>
   </ExpandedItems>
 
