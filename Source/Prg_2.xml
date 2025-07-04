@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="My First Program" ISN_2="1" LastIsn="1" id="2">
-          <LastModified _date="739436" _time="42206" date="04/07/2025" time="11:43:26"/>
+          <LastModified _date="739436" _time="55595" date="04/07/2025" time="15:26:35"/>
           <Public val="RunMe"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -31,7 +31,7 @@
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="12"/>
+        <ItemIsn val="14"/>
         <Resource>
           <Columns>
             <Column id="1" name="Customer_Code">
@@ -95,6 +95,7 @@
             <Column id="8" name="Membership_Time">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_TIME" id="1"/>
+                <Picture id="157" valUnicode="HH:MM"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
@@ -138,6 +139,23 @@
                 <Size id="174" val="20"/>
                 <_Flip id="194"/>
                 <PartOfDatetime id="244"/>
+              </PropertyList>
+            </Column>
+            <Column id="13" name="CHG_REASON_Membership_Date">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Picture id="157" valUnicode="2"/>
+                <StoredAs id="173" val="1"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="2"/>
+                <_Negative id="192"/>
+              </PropertyList>
+            </Column>
+            <Column id="14" name="CHG_PRV_Membership_Date">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_DATE" id="1"/>
+                <PartOfDatetime id="244"/>
+                <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -221,6 +239,7 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="1" FlowIsn="3" id="1">
+                  <ASS val="15"/>
                   <Column val="1"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
@@ -234,6 +253,7 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="2" FlowIsn="4" id="2">
+                  <ASS val="16"/>
                   <Column val="2"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
@@ -254,6 +274,9 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <INT_RCMP_INFO>
+                    <v>12</v>
+                  </INT_RCMP_INFO>
                   <INT_DIT_INFO>
                     <v>7</v>
                     <v>9</v>
@@ -305,6 +328,9 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <INT_RCMP_INFO>
+                    <v>12</v>
+                  </INT_RCMP_INFO>
                   <_DitIndexForToolkit val="14"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -318,6 +344,9 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <INT_DIT_INFO>
+                    <v>15</v>
+                  </INT_DIT_INFO>
                   <_DitIndexForToolkit val="16"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -353,6 +382,7 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="10" FlowIsn="12" id="10">
+                  <ASS val="23"/>
                   <Column val="10"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
@@ -507,6 +537,153 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </STP>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="8" propagate="78">
+            <Level val="V"/>
+            <Type val="C"/>
+            <FieldID val="7"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <Select FieldID="13" FlowIsn="27" id="13">
+                  <Column val="13"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="14" FlowIsn="28" id="14">
+                  <Column val="14"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="Y"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="29">
+                  <FieldID val="8"/>
+                  <WithValue val="11"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="30" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="A hora foi zerada" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="9" propagate="78">
+            <Level val="T"/>
+            <Type val="P"/>
+            <Comment val="- o Task Prefix= opreções que serão executadas no inicio da tarefa&#xD;&#xA;- Task suffix= operações que serão executadas ao final da tarefa.&#xD;&#xA;- A função date() trás a variável virtual a data atual do sistema.&#xD;&#xA;- A função time() trás a hora atual do sistema."/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <ExecuteOn_ val="S"/>
+            <LogicLines>
+              <LogicLine>
+                <Update FlowIsn="31">
+                  <FieldID val="7"/>
+                  <WithValue val="13"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="32">
+                  <FieldID val="8"/>
+                  <WithValue val="14"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="10" propagate="78">
+            <Level val="C"/>
+            <Type val="P"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="-18"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <TXT val="Country"/>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <Update FlowIsn="33">
+                  <FieldID val="3"/>
+                  <WithValue val="17"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="11" propagate="78">
+            <Level val="C"/>
+            <Type val="P"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="-19"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <TXT val="City"/>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <Update FlowIsn="34">
+                  <FieldID val="4"/>
+                  <WithValue val="22"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition Exp="20"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -758,6 +935,7 @@
                 <Data FieldID="8" id="43"/>
                 <ControlName id="46" val="Membership_Time"/>
                 <TabOrder id="314" val="10"/>
+                <AllowParking Exp="12" id="315" val="Y"/>
               </PropertyList>
             </Control>
             <Control _test_id="18" id="18">
@@ -854,6 +1032,54 @@
           <Expression id="10">
             <ExpSyntax val="{0,1}=0"/>
             <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="11">
+            <ExpSyntax val="0"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="12">
+            <ExpSyntax val="{0,7} &lt;> '01/01/1901'DATE"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="13">
+            <ExpSyntax val="Date()"/>
+            <ExpAttribute val="D"/>
+          </Expression>
+          <Expression id="14">
+            <ExpSyntax val="Time()"/>
+            <ExpAttribute val="T"/>
+          </Expression>
+          <Expression id="15">
+            <ExpSyntax val="1"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="16">
+            <ExpSyntax val="'Vinicius'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="17">
+            <ExpSyntax val="'Australia'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="18">
+            <ExpSyntax val="{0,3} =' '"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="19">
+            <ExpSyntax val="{0,4} = ' '"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="22">
+            <ExpSyntax val="'Melborn'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="20">
+            <ExpSyntax val="{0,3}=Trim('Australia')"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="23">
+            <ExpSyntax val="IF(Upper({0,3})='TARTARUS',0,IF(Upper({0,3})='XANADU' AND {0,6},1000,{0,10}))"/>
+            <ExpAttribute val="N"/>
           </Expression>
         </Expressions>
       </Task>
