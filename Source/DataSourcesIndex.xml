@@ -18,7 +18,7 @@
  <DataSourceRepository>
   <DataObjects>
  
-<DataObject PhysicalName="Customers" Public="0" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="1" name="Customers" offset="228" length="7301"/> 
-<DataObject PhysicalName="Suppliers" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="3" name="Suppliers" offset="7530" length="5043"/>  </DataObjects>
+<DataObject PhysicalName="Customers" Public="0" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="1" name="Customers" offset="228" length="6867"/> 
+<DataObject PhysicalName="Suppliers" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="3" name="Suppliers" offset="7096" length="4484"/>  </DataObjects>
  </DataSourceRepository>
- <LastModified val="3119105111795142"/>  </Application>
+ <LastModified val="3119105626604761"/>  </Application>

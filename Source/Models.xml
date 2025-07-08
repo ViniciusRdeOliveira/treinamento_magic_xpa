@@ -4,7 +4,7 @@
   <Header>
     <Version val="14100.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="5"/>
+    <LastIsn val="16"/>
     <LastIsnFolder val="0"/>
   </Header>
 
@@ -46,6 +46,94 @@
         <PropertyList model="CTRL_RICH_CLIENT_EDIT">
           <Font id="50" val="12"/>
           <Color id="51" val="6"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="Country">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="City">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="8" name="Address">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="9" name="Gold_Membership">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="10" name="Amount">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="12.2C"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="12"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="11" name="Phone_Number">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="###-#######"/>
+          <Size id="174" val="10"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="12" name="Year_Since_Start_Working">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="13" name="Bonus">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3.2"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="14" name="Display Only">
+        <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+          <Color id="51" val="5"/>
+          <Border id="452"/>
+        </PropertyList>
+      </Object>
+      <Object id="15" name="Table">
+        <PropertyList model="CTRL_RICH_CLIENT_TABLE">
+          <Placement bottom="100" id="20"/>
+          <Color id="51" val="5"/>
+          <RowHighlightColor id="410" val="7"/>
+          <SetTableColorBy id="428" val="2"/>
+        </PropertyList>
+      </Object>
+      <Object id="16" name="Colunm">
+        <PropertyList model="CTRL_RICH_CLIENT_COLUMN">
+          <Font id="50" val="11"/>
+          <Color id="51" val="4"/>
         </PropertyList>
       </Object>
     </Models>

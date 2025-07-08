@@ -69,8 +69,7 @@
     </Column>
     <Column id="12" name="Country">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" id="1"/>
-        <Picture id="157" valUnicode="20"/>
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="6"/>
         <StoredAs id="173" val="3"/>
         <Size id="174" val="20"/>
         <Definition id="175" val="2"/>
@@ -82,8 +81,7 @@
     </Column>
     <Column id="4" name="City">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" id="1"/>
-        <Picture id="157" valUnicode="20"/>
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="7"/>
         <StoredAs id="173" val="3"/>
         <Size id="174" val="20"/>
         <Definition id="175" val="2"/>
@@ -95,8 +93,7 @@
     </Column>
     <Column id="5" name="Address">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" id="1"/>
-        <Picture id="157" valUnicode="20"/>
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="8"/>
         <StoredAs id="173" val="3"/>
         <Size id="174" val="20"/>
         <Definition id="175" val="2"/>
@@ -108,7 +105,7 @@
     </Column>
     <Column id="6" name="Gold_Membership">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_LOGICAL" id="1"/>
+        <Model attr_obj="FIELD_LOGICAL" comp="-1" id="1" obj="9"/>
         <StoredAs id="173" val="15"/>
         <Size id="174" val="1"/>
         <Definition id="175" val="2"/>
@@ -116,7 +113,6 @@
         <_Flip id="194"/>
         <_FieldPhysical Name="Gold_Membership" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
         <DefaultStorage id="274" val="Y"/>
-        <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
     <Column id="7" name="Membership_Date">
@@ -147,36 +143,26 @@
     </Column>
     <Column id="9" name="Salary_Amount">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="12.2C"/>
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="10"/>
         <StoredAs id="173" val="6"/>
         <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="Salary_Amount"/>
-        <_Dec id="181" val="2"/>
-        <_Whole id="182" val="12"/>
-        <_Negative id="192"/>
         <_Flip id="194"/>
         <_FieldPhysical Name="Salary_Amount" PIC_U="12.2C" Size="8" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
         <DefaultStorage id="274" val="Y"/>
-        <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
     <Column id="10" name="Credit_Amount">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="12.2C"/>
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="10"/>
         <StoredAs id="173" val="6"/>
         <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="Credit_Amount"/>
-        <_Dec id="181" val="2"/>
-        <_Whole id="182" val="12"/>
-        <_Negative id="192"/>
         <_Flip id="194"/>
         <_FieldPhysical Name="Credit_Amount" PIC_U="12.2C" Size="8" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
         <DefaultStorage id="274" val="Y"/>
-        <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
   </Columns>
@@ -234,25 +220,19 @@
   <Columns>
     <Column id="1" name="Supplier_Code">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="9"/>
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="1"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="Supplier_Code"/>
-        <_Dec id="181"/>
-        <_Whole id="182" val="9"/>
-        <_Negative id="192"/>
         <_Flip id="194"/>
         <_FieldPhysical Name="Supplier_Code" PIC_U="9" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
         <DefaultStorage id="274" val="Y"/>
-        <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
     <Column id="2" name="Supplier_Name">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" id="1"/>
-        <Picture id="157" valUnicode="20"/>
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="2"/>
         <StoredAs id="173" val="3"/>
         <Size id="174" val="20"/>
         <Definition id="175" val="2"/>
@@ -264,8 +244,7 @@
     </Column>
     <Column id="3" name="Phone_Number">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" id="1"/>
-        <Picture id="157" valUnicode="###-#######"/>
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="11"/>
         <StoredAs id="173" val="3"/>
         <Size id="174" val="10"/>
         <Definition id="175" val="2"/>
@@ -277,8 +256,7 @@
     </Column>
     <Column id="4" name="Address">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" id="1"/>
-        <Picture id="157" valUnicode="20"/>
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="8"/>
         <StoredAs id="173" val="3"/>
         <Size id="174" val="20"/>
         <Definition id="175" val="2"/>
@@ -290,36 +268,26 @@
     </Column>
     <Column id="5" name="Year_Since_Start_Working">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="2"/>
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="12"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="2"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="Yer_Since_Start_Working"/>
-        <_Dec id="181"/>
-        <_Whole id="182" val="2"/>
-        <_Negative id="192"/>
         <_Flip id="194"/>
         <_FieldPhysical Name="Yer_Since_Start_Working" PIC_U="2" Size="2" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
         <DefaultStorage id="274" val="Y"/>
-        <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
     <Column id="6" name="Bonus">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="3.2"/>
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="13"/>
         <StoredAs id="173" val="6"/>
         <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="Bonus"/>
-        <_Dec id="181" val="2"/>
-        <_Whole id="182" val="3"/>
-        <_Negative id="192"/>
         <_Flip id="194"/>
         <_FieldPhysical Name="Bonus" PIC_U="3.2" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
         <DefaultStorage id="274" val="Y"/>
-        <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
   </Columns>

@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Customers - Screen Mode" ISN_2="1" LastIsn="1" id="9">
-          <LastModified _date="739440" _time="38229" date="08/07/2025" time="10:37:09"/>
+          <LastModified _date="739440" _time="39456" date="08/07/2025" time="10:57:36"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -264,17 +264,13 @@
             </Control>
             <Control _test_id="1" id="1">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="1"/>
-                </Model>
+                <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
                 <Y id="22" val="13"/>
                 <Width id="23" val="111"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="Customer_Name"/>
-                <Font id="50" val="12"/>
-                <Color id="51" val="6"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -292,17 +288,13 @@
             </Control>
             <Control _test_id="3" id="3">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="1"/>
-                </Model>
+                <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
                 <Y id="22" val="36"/>
                 <Width id="23" val="111"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="Customer_Name_0001"/>
-                <Font id="50" val="12"/>
-                <Color id="51" val="6"/>
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
@@ -320,17 +312,13 @@
             </Control>
             <Control _test_id="5" id="5">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="2"/>
-                </Model>
+                <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
                 <Y id="22" val="65"/>
                 <Width id="23" val="111"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="Country"/>
-                <Font id="50" val="12"/>
-                <Color id="51" val="6"/>
                 <TabOrder id="314" val="3"/>
               </PropertyList>
             </Control>
@@ -348,17 +336,13 @@
             </Control>
             <Control _test_id="7" id="7">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="3"/>
-                </Model>
+                <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
                 <Y id="22" val="92"/>
                 <Width id="23" val="111"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="City"/>
-                <Font id="50" val="12"/>
-                <Color id="51" val="6"/>
                 <TabOrder id="314" val="4"/>
               </PropertyList>
             </Control>
@@ -376,17 +360,13 @@
             </Control>
             <Control _test_id="11" id="11">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="4"/>
-                </Model>
+                <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
                 <Y id="22" val="107"/>
                 <Width id="23" val="111"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="Address"/>
-                <Font id="50" val="12"/>
-                <Color id="51" val="6"/>
                 <TabOrder id="314" val="5"/>
               </PropertyList>
             </Control>
@@ -404,17 +384,13 @@
             </Control>
             <Control PDOD="192" _test_id="9" id="9">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="5"/>
-                </Model>
+                <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
                 <Y id="22" val="131"/>
                 <Width id="23" val="31"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="5" id="43"/>
                 <ControlName id="46" val="Gold_Membership"/>
-                <Font id="50" val="12"/>
-                <Color id="51" val="6"/>
                 <TabOrder id="314" val="6"/>
               </PropertyList>
             </Control>
@@ -432,17 +408,13 @@
             </Control>
             <Control PDOD="128" _test_id="13" id="13">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="6"/>
-                </Model>
+                <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
                 <Y id="22" val="149"/>
                 <Width id="23" val="61"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="6" id="43"/>
                 <ControlName id="46" val="Membership_Date"/>
-                <Font id="50" val="12"/>
-                <Color id="51" val="6"/>
                 <TabOrder id="314" val="7"/>
               </PropertyList>
             </Control>
@@ -460,17 +432,13 @@
             </Control>
             <Control PDOD="128" _test_id="15" id="15">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="8"/>
-                </Model>
+                <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
                 <Y id="22" val="171"/>
                 <Width id="23" val="48"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="8" id="43"/>
                 <ControlName id="46" val="Membership_Time"/>
-                <Font id="50" val="12"/>
-                <Color id="51" val="6"/>
                 <TabOrder id="314" val="8"/>
               </PropertyList>
             </Control>
@@ -488,17 +456,13 @@
             </Control>
             <Control PDOD="19" _test_id="17" id="17">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="9"/>
-                </Model>
+                <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
                 <Y id="22" val="195"/>
                 <Width id="23" val="88"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="9" id="43"/>
                 <ControlName id="46" val="Salary_Amount"/>
-                <Font id="50" val="12"/>
-                <Color id="51" val="6"/>
                 <TabOrder id="314" val="9"/>
               </PropertyList>
             </Control>
@@ -516,17 +480,13 @@
             </Control>
             <Control PDOD="19" _test_id="19" id="19">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model ID="MODEL_RICH_CLIENT" id="1">
-                  <Var FieldID="10"/>
-                </Model>
+                <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
                 <Y id="22" val="217"/>
                 <Width id="23" val="88"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="10" id="43"/>
                 <ControlName id="46" val="Credit_Amount"/>
-                <Font id="50" val="12"/>
-                <Color id="51" val="6"/>
                 <TabOrder id="314" val="10"/>
               </PropertyList>
             </Control>
