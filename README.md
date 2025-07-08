@@ -16,7 +16,10 @@
 <li>Para Configurações Genéricas (valido para todos os projetos), a configuração deve ser feita pelo menu Optinons > Settings.</li>
 <li>Heranças não são herdadas automaticamente se a propriedade já foi alterada manualmente antes</li>
 <li>O Engine do Magic é orientado a Eventos. Metodologia orientada a evento funciona em 3 partes. Evento, uma trigger e um handler. Os eventos podem ser internos ou criados pelo usuário(Desenvolvido). Trigger pode ser interno, feito pelo desenvolvedor ou acionado pelo usuário. Handler são operações efetuadas quando um evento é disparado.</li>
-
+<br>
+<br>
+<h3>Breve Resumo Sobre Execução</h3>
+<br>
 <table>
   <thead>
     <tr>
@@ -65,6 +68,79 @@
       <td>Variable Change</td>
       <td>O valor da variável é alterado</td>
       <td>-</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<h3>Regras de Execuão</h3>
+<br>
+<table>
+  <thead>
+    <tr>
+      <th>Nome da unidade lógica</th>
+      <th>Gatilho</th>
+      <th>Próxima unidade lógica</th>
+      <th>Próxima unidade lógica será executada se:</th>
+      <th>Caso contrário, executará</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Task Prefix</td>
+      <td>execução da tarefa</td>
+      <td>Record Prefix</td>
+      <td>existe pelo menos 1 registro no <em>data view</em></td>
+      <td>Task Suffix</td>
+    </tr>
+    <tr>
+      <td>Record Prefix</td>
+      <td>o registro é obtido</td>
+      <td>Control Prefix</td>
+      <td>esta é uma tarefa <em>Online</em> ou <em>Rich Client</em></td>
+      <td>Record Suffix</td>
+    </tr>
+    <tr>
+      <td>Control Prefix</td>
+      <td>o cursor para no controle</td>
+      <td>Control Verification</td>
+      <td>sem restrição</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Control Verification</td>
+      <td>a edição do controle é finalizada ou o cursor pula o controle</td>
+      <td>Control Suffix</td>
+      <td>sem restrição</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Control Suffix</td>
+      <td>a edição do controle é encerrada</td>
+      <td>Variable Change</td>
+      <td>o valor da variável mudou</td>
+      <td>Record Suffix</td>
+    </tr>
+    <tr>
+      <td>Variable Change</td>
+      <td>o valor da variável é alterado</td>
+      <td>Record Suffix</td>
+      <td>o registro está prestes a ser salvo em uma tarefa <em>Online</em> ou <em>Rich Client</em></td>
+      <td>Task Suffix</td>
+    </tr>
+    <tr>
+      <td>Record Suffix</td>
+      <td>o registro está prestes a ser salvo</td>
+      <td>Task Suffix</td>
+      <td>sem restrição</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Task Suffix</td>
+      <td>a tarefa está prestes a finalizar</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
