@@ -45,3 +45,193 @@
  <319632689500933952> 04/07/2025 15:26:44.712     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
  <319632689500933952> 04/07/2025 15:27:49.971     [Error  ] - Aborting context 319632689500933952, Program: "Main Program".
  <569884575896898496> 04/07/2025 16:11:49.068     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <398441552247992704> 04/07/2025 16:52:12.209     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <398441552247992704> 04/07/2025 16:52:41.988     [Error  ] - Aborting context 398441552247992704, Program: "Main Program".
+ <84385848799239408> 07/07/2025 08:10:36.211     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <84385848799239408> 07/07/2025 08:12:27.382     [Error  ] - Aborting context 84385848799239408, Program: "Main Program".
+ <20874452773821128> 07/07/2025 08:47:25.528     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <20874452773821128> 07/07/2025 08:47:56.107     [Error  ] - Aborting context 20874452773821128, Program: "Main Program".
+ <170913905688645760> 07/07/2025 08:52:05.790     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <170913905688645760> 07/07/2025 08:52:19.442     [Error  ] - Aborting context 170913905688645760, Program: "Main Program".
+ <12628149674627876> 07/07/2025 08:53:21.735     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <12628149674627876> 07/07/2025 08:53:30.496     [Error  ] - Aborting context 12628149674627876, Program: "Main Program".
+ <561861273449910080> 07/07/2025 08:54:23.515     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <561861273449910080> 07/07/2025 08:54:44.908     [Error  ] - Aborting context 561861273449910080, Program: "Main Program".
+ <58591969238698624> 07/07/2025 08:55:31.152     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <58591969238698624> 07/07/2025 08:56:00.800     [Error  ] - Aborting context 58591969238698624, Program: "Main Program".
+ <490953252900173248> 07/07/2025 09:02:15.419     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <490953252900173248> 07/07/2025 09:02:32.673     [Error  ] - Aborting context 490953252900173248, Program: "Main Program".
+ <364102385185020288> 07/07/2025 09:06:35.444     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <364102385185020288> 07/07/2025 09:06:52.176     [Error  ] - Aborting context 364102385185020288, Program: "Main Program".
+ <572699212954112128> 07/07/2025 09:07:24.860     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <572699212954112128> 07/07/2025 09:07:37.554     [Error  ] - Aborting context 572699212954112128, Program: "Main Program".
+ <442961515661363584> 07/07/2025 09:12:28.536     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <442961515661363584> 07/07/2025 09:12:47.298     [Error  ] - Aborting context 442961515661363584, Program: "Main Program".
+ <345464997041024384> 07/07/2025 09:13:42.843     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <345464997041024384> 07/07/2025 09:13:54.098     [Error  ] - Aborting context 345464997041024384, Program: "Main Program".
+ <294718691203324992> 07/07/2025 09:14:23.694     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <420068250795635264> 07/07/2025 09:15:32.000     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <420068250795635264> 07/07/2025 09:15:45.734     [Error  ] - Aborting context 420068250795635264, Program: "Main Program".
+ <386416683688373120> 07/07/2025 09:33:27.795     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <386416683688373120> 07/07/2025 09:34:20.942     [Error  ] - Aborting context 386416683688373120, Program: "Main Program".
+ <14883568233464744> 07/07/2025 09:38:19.985     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <14883568233464744> 07/07/2025 09:43:33.488     [Error  ] - Aborting context 14883568233464744, Program: "Main Program".
+ <478865173933952832> 07/07/2025 09:46:12.913     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <316652407074828032> 07/07/2025 09:48:17.287     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <316652407074828032> 07/07/2025 09:49:29.960     [Error  ] - Aborting context 316652407074828032, Program: "Main Program".
+ <40676640766172664> 07/07/2025 09:52:12.243     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <40866108610226560> 07/07/2025 09:53:35.156     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <40676640766172664> 07/07/2025 09:53:55.890     [Error  ] - Aborting context 40676640766172664, Program: "Main Program".
+ <40866108610226560> 07/07/2025 09:53:55.893     [Error  ] - Aborting context 40866108610226560, Program: "Main Program".
+ <255232535222499136> 07/07/2025 09:55:29.266     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <255232535222499136> 07/07/2025 09:56:01.756     [Error  ] - Aborting context 255232535222499136, Program: "Main Program".
+ <231482345079147840> 07/07/2025 09:58:46.441     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <231482345079147840> 07/07/2025 09:59:12.837     [Error  ] - Aborting context 231482345079147840, Program: "Main Program".
+ <501468727794120256> 07/07/2025 10:00:20.729     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <501468727794120256> 07/07/2025 10:03:48.682     [Error  ] - Aborting context 501468727794120256, Program: "Main Program".
+ <104299908526648416> 07/07/2025 10:04:33.875     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <104299908526648416> 07/07/2025 10:04:56.984     [Error  ] - Aborting context 104299908526648416, Program: "Main Program".
+ <431542403352162944> 07/07/2025 10:16:55.795     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <124535285029762016> 07/07/2025 10:17:25.403     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <291918659422664128> 07/07/2025 10:17:34.677     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <124535285029762016> 07/07/2025 10:18:01.589     [Error  ] - Aborting context 124535285029762016, Program: "Main Program".
+ <291918659422664128> 07/07/2025 10:18:01.590     [Error  ] - Aborting context 291918659422664128, Program: "Main Program".
+ <431542403352162944> 07/07/2025 10:18:01.591     [Error  ] - Aborting context 431542403352162944, Program: "Main Program".
+ <15704202995930272> 07/07/2025 10:20:07.455     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <469231469585505216> 07/07/2025 10:20:20.752     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <512213151619524096> 07/07/2025 10:20:47.728     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <15704202995930272> 07/07/2025 10:20:57.311     [Error  ] - Aborting context 15704202995930272, Program: "Main Program".
+ <469231469585505216> 07/07/2025 10:20:57.312     [Error  ] - Aborting context 469231469585505216, Program: "Main Program".
+ <512213151619524096> 07/07/2025 10:20:57.313     [Error  ] - Aborting context 512213151619524096, Program: "Main Program".
+ <498624775840731456> 07/07/2025 10:23:32.307     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <325510039194623168> 07/07/2025 10:23:40.321     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <498624775840731456> 07/07/2025 10:24:06.650     [Error  ] - Aborting context 498624775840731456, Program: "Main Program".
+ <261812124830297664> 07/07/2025 10:25:33.302     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <353468002507931840> 07/07/2025 10:26:40.946     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <105706593853074656> 07/07/2025 10:26:50.364     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <105706593853074656> 07/07/2025 10:27:01.119     [Error  ] - Aborting context 105706593853074656, Program: "Main Program".
+ <261812124830297664> 07/07/2025 10:27:01.121     [Error  ] - Aborting context 261812124830297664, Program: "Main Program".
+ <353468002507931840> 07/07/2025 10:27:01.123     [Error  ] - Aborting context 353468002507931840, Program: "Main Program".
+ <146784198793402272> 07/07/2025 10:27:49.173     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <146784198793402272> 07/07/2025 10:30:00.027     [Error  ] - Aborting context 146784198793402272, Program: "Main Program".
+ <330363420051023232> 07/07/2025 10:38:06.374     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <397108826867280576> 07/07/2025 10:38:35.022     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <411899568311525696> 07/07/2025 10:38:40.811     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <330363420051023232> 07/07/2025 10:46:12.248     [Error  ] - Aborting context 330363420051023232, Program: "Main Program".
+ <397108826867280576> 07/07/2025 10:46:12.250     [Error  ] - Aborting context 397108826867280576, Program: "Main Program".
+ <411899568311525696> 07/07/2025 10:46:12.252     [Error  ] - Aborting context 411899568311525696, Program: "Main Program".
+ <215634117597224544> 07/07/2025 10:56:18.151     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <106400666715051536> 07/07/2025 10:56:34.588     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <124093719583810336> 07/07/2025 10:56:39.510     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <189459423404778400> 07/07/2025 11:12:08.882     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <353457825794375424> 07/07/2025 11:12:17.320     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <226797877999533632> 07/07/2025 11:41:53.184     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <344243906791236608> 07/07/2025 11:42:05.476     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <226797877999533632> 07/07/2025 11:42:44.098     [Error  ] - Aborting context 226797877999533632, Program: "Main Program".
+ <344243906791236608> 07/07/2025 11:42:44.102     [Error  ] - Aborting context 344243906791236608, Program: "Main Program".
+ <437715741978547648> 07/07/2025 11:44:51.060     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <358465713268241856> 07/07/2025 11:44:58.811     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <358465713268241856> 07/07/2025 11:45:14.669     [Error  ] - Aborting context 358465713268241856, Program: "Main Program".
+ <437715741978547648> 07/07/2025 11:45:14.670     [Error  ] - Aborting context 437715741978547648, Program: "Main Program".
+ <183788179711958752> 07/07/2025 11:47:35.605     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <301565564586222912> 07/07/2025 11:47:46.033     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <183788179711958752> 07/07/2025 11:48:05.689     [Error  ] - Aborting context 183788179711958752, Program: "Main Program".
+ <300842825413168000> 07/07/2025 11:48:51.346     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <541612758890002560> 07/07/2025 11:51:20.722     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <406486918151688128> 07/07/2025 11:51:39.708     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <541612758890002560> 07/07/2025 11:51:57.961     [Error  ] - Aborting context 541612758890002560, Program: "Main Program".
+ <41205930737127008> 07/07/2025 13:10:52.583     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <159481967038421152> 07/07/2025 13:11:02.134     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <41205930737127008> 07/07/2025 13:11:30.097     [Error  ] - Aborting context 41205930737127008, Program: "Main Program".
+ <295916707547310528> 07/07/2025 13:12:59.912     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <442485110600225344> 07/07/2025 13:13:58.336     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <435957942219333312> 07/07/2025 13:15:02.107     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <333968969948145856> 07/07/2025 13:16:21.516     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <442485110600225344> 07/07/2025 13:16:54.066     [Error  ] - Aborting context 442485110600225344, Program: "Main Program".
+ <446336830168328448> 07/07/2025 13:19:42.142     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <122932223428131808> 07/07/2025 13:21:28.760     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <122932223428131808> 07/07/2025 13:21:45.125     [Error  ] - Aborting context 122932223428131808, Program: "Main Program".
+ <250608825503114880> 07/07/2025 13:23:32.182     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <250608825503114880> 07/07/2025 13:23:49.451     [Error  ] - Aborting context 250608825503114880, Program: "Main Program".
+ <158979351552185888> 07/07/2025 13:24:41.506     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <158979351552185888> 07/07/2025 13:25:13.125     [Error  ] - Aborting context 158979351552185888, Program: "Main Program".
+ <1136587656423868> 07/07/2025 13:26:14.562     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <484488173923487744> 07/07/2025 13:26:54.980     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <324291087106691264> 07/07/2025 13:30:36.590     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <49148603730761368> 07/07/2025 13:33:23.730     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <49148603730761368> 07/07/2025 13:34:56.628     [Error  ] - Aborting context 49148603730761368, Program: "Main Program".
+ <324291087106691264> 07/07/2025 13:34:56.630     [Error  ] - Aborting context 324291087106691264, Program: "Main Program".
+ <498685568145351680> 07/07/2025 13:39:05.265     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <321544313359016064> 07/07/2025 13:39:20.939     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <130878503639788496> 07/07/2025 13:39:27.394     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <130878503639788496> 07/07/2025 13:42:24.999     [Error  ] - Aborting context 130878503639788496, Program: "Main Program".
+ <321544313359016064> 07/07/2025 13:42:25.003     [Error  ] - Aborting context 321544313359016064, Program: "Main Program".
+ <498685568145351680> 07/07/2025 13:42:25.007     [Error  ] - Aborting context 498685568145351680, Program: "Main Program".
+ <365453018365351872> 07/07/2025 13:43:53.152     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <298730212543973696> 07/07/2025 13:44:47.444     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <15940733067741494> 07/07/2025 13:45:42.132     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <157110698382192544> 07/07/2025 13:46:56.516     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <399554268347777216> 07/07/2025 13:51:24.501     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <399554268347777216> 07/07/2025 13:57:28.342     [Error  ] - Aborting context 399554268347777216, Program: "Main Program".
+ <116470644345755760> 07/07/2025 14:01:13.216     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <116470644345755760> 07/07/2025 14:01:38.974     [Error  ] - Aborting context 116470644345755760, Program: "Main Program".
+ <331963580994308928> 07/07/2025 14:02:11.706     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <331963580994308928> 07/07/2025 14:02:37.373     [Error  ] - Aborting context 331963580994308928, Program: "Main Program".
+ <524664539424837504> 07/07/2025 14:04:34.547     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <524664539424837504> 07/07/2025 14:05:02.940     [Error  ] - Aborting context 524664539424837504, Program: "Main Program".
+ <59029423708433272> 07/07/2025 14:10:58.656     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <389534073703573632> 07/07/2025 14:11:40.782     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <494642153431396032> 07/07/2025 15:18:13.358     [Error  ] - Unable to open the Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers".
+ <494642153431396032> 07/07/2025 15:18:13.360     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <494642153431396032> 07/07/2025 15:18:13.360     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Customers : Customers no such column: Coutry : "RunMe" ("GettingStarted")  (msgid "3"), Program: "Main Program".
+ <545773896741637248> 07/07/2025 15:19:08.356     [Error  ] - Unable to open the Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers".
+ <545773896741637248> 07/07/2025 15:19:08.357     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <545773896741637248> 07/07/2025 15:19:08.358     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Customers : Customers no such column: Coutry : "RunMe" ("GettingStarted")  (msgid "6"), Program: "Main Program".
+ <508842972107461184> 07/07/2025 15:19:29.314     [Error  ] - Unable to open the Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers".
+ <508842972107461184> 07/07/2025 15:19:29.314     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <508842972107461184> 07/07/2025 15:19:29.315     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Customers : Customers no such column: Coutry : "RunMe" ("GettingStarted")  (msgid "9"), Program: "Main Program".
+ <238501223936351936> 07/07/2025 15:21:12.427     [Error  ] - Unable to open the Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers".
+ <238501223936351936> 07/07/2025 15:21:12.428     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <238501223936351936> 07/07/2025 15:21:12.428     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Customers : Customers no such column: Coutry : "RunMe" ("GettingStarted")  (msgid "14"), Program: "Main Program".
+ <38769978507888528> 07/07/2025 15:23:08.461     [Error  ] - Unable to open the Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers".
+ <38769978507888528> 07/07/2025 15:23:08.461     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <38769978507888528> 07/07/2025 15:23:08.462     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Customers : Customers no such column: Coutry : "Customers" ("GettingStarted")  (msgid "17"), Program: "Main Program".
+ <252858227951396352> 07/07/2025 15:23:28.570     [Error  ] - Unable to open the Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers".
+ <252858227951396352> 07/07/2025 15:23:28.570     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <252858227951396352> 07/07/2025 15:23:28.571     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Customers : Customers no such column: Coutry : "RunMe" ("GettingStarted")  (msgid "21"), Program: "Main Program".
+ <263243049334128320> 07/07/2025 15:25:27.541     [Error  ] - Unable to open the Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers".
+ <263243049334128320> 07/07/2025 15:25:27.541     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <263243049334128320> 07/07/2025 15:25:27.542     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Customers : Customers no such column: Coutry : "RunMe" ("GettingStarted")  (msgid "25"), Program: "Main Program".
+ <547892479514240576> 07/07/2025 15:25:51.930     [Error  ] - EndTaskRequest(): Error: "Program is not set as External" (-261) : "RunMe" ("GettingStarted")  (msgid "28"), Program: "Main Program".
+ <300062993939825920> 07/07/2025 15:25:55.923     [Error  ] - EndTaskRequest(): Error: "Program is not set as External" (-261) : "RunMe" ("GettingStarted")  (msgid "31"), Program: "Main Program".
+ <70824145013178872> 07/07/2025 15:26:23.842     [Error  ] - Flow - Verify Warning: Can't execute client operation, because execution started in a server-side task prefix (see execution path). [Not Executed]
+ <49077240335085432> 07/07/2025 15:26:52.562     [Error  ] - Unable to open the Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers".
+ <49077240335085432> 07/07/2025 15:26:52.563     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <49077240335085432> 07/07/2025 15:26:52.563     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Customers : Customers no such column: Coutry : "RunMe" ("GettingStarted")  (msgid "42"), Program: "Main Program".
+ <207066038372986240> 07/07/2025 15:28:17.235     [Error  ] - Unable to open the Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers".
+ <207066038372986240> 07/07/2025 15:28:17.236     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <207066038372986240> 07/07/2025 15:28:17.236     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Customers : Customers no such column: Coutry : "RunMe" ("GettingStarted")  (msgid "46"), Program: "Main Program".
+ <545893980132505728> 07/07/2025 15:30:25.919     [Error  ] - Unable to open the Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers".
+ <545893980132505728> 07/07/2025 15:30:25.920     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <545893980132505728> 07/07/2025 15:30:25.920     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Customers : Customers no such column: Coutry : "RunMe" ("GettingStarted")  (msgid "49"), Program: "Main Program".
+ <37145215888192352> 07/07/2025 15:32:39.394     [Error  ] - Unable to open the Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers".
+ <37145215888192352> 07/07/2025 15:32:39.395     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <37145215888192352> 07/07/2025 15:32:39.396     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Customers : Customers no such column: Coutry : "RunMe" ("GettingStarted")  (msgid "53"), Program: "Main Program".
+ <440284145179304832> 07/07/2025 15:36:25.303     [Error  ] - EndTaskRequest(): Error: "Program not found" (-131) : "RunMe" ("GettingStarted")  (msgid "56")
+ <121819000987962304> 07/07/2025 15:42:12.565     [Error  ] - Aborting context 121819000987962304, Program: "Main Program".
+ <39978646912422256> 07/07/2025 16:34:12.198     [Error  ] - EndTaskRequest(): Error: "Program not found" (-131) : "RunMe" ("GettingStarted")  (msgid "77")
+ <236951258082317856> 07/07/2025 16:36:06.797     [Error  ] - Aborting context 236951258082317856, Program: "Main Program".
+ <563091652045591424> 07/07/2025 16:38:12.580     [Error  ] - Aborting context 563091652045591424, Program: "Main Program".
+ <93032609499750400> 07/07/2025 16:41:09.207     [Error  ] - Aborting context 93032609499750400, Program: "Main Program".
+ <273784182042131488> 07/07/2025 16:53:14.486     [Error  ] - Unable to open the Data Source: Suppliers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Supplier - Line Mode".
+ <273784182042131488> 07/07/2025 16:53:14.486     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <273784182042131488> 07/07/2025 16:53:14.487     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Suppliers : Supplier - Line Mode no such column: Suplier_Code : "RunMe" ("GettingStarted")  (msgid "106"), Program: "Main Program".
+ <297660610027322368> 07/07/2025 16:53:47.693     [Error  ] - Unable to open the Data Source: Suppliers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Supplier - Line Mode".
+ <297660610027322368> 07/07/2025 16:53:47.694     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <297660610027322368> 07/07/2025 16:53:47.695     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Suppliers : Supplier - Line Mode no such column: Suplier_Code : "RunMe" ("GettingStarted")  (msgid "109"), Program: "Main Program".
+ <307082432991298624> 07/07/2025 16:54:06.188     [Error  ] - Unable to open the Data Source: Suppliers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Supplier - Line Mode".
+ <307082432991298624> 07/07/2025 16:54:06.189     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <307082432991298624> 07/07/2025 16:54:06.189     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Suppliers : Supplier - Line Mode no such column: Suplier_Code : "RunMe" ("GettingStarted")  (msgid "112"), Program: "Main Program".
+ <475930626474061376> 07/07/2025 16:55:06.342     [Error  ] - Unable to open the Data Source: Suppliers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Supplier - Line Mode".
+ <475930626474061376> 07/07/2025 16:55:06.342     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
+ <475930626474061376> 07/07/2025 16:55:06.343     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Suppliers : Supplier - Line Mode no such column: Suplier_Code : "RunMe" ("GettingStarted")  (msgid "115"), Program: "Main Program".

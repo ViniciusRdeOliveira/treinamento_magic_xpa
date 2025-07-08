@@ -4,8 +4,51 @@
   <Header>
     <Version val="14100.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="0"/>
+    <LastIsn val="5"/>
     <LastIsnFolder val="0"/>
   </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="Code">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="2" name="Name">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="3" name="Table Display Form">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Wallpaper id="42" val="C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\env\Wallpaper.jpg"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <WallpaperStyle id="448" val="5"/>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="TextCaption">
+        <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+          <Font id="50" val="11"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="EditControl">
+        <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+          <Font id="50" val="12"/>
+          <Color id="51" val="6"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
 
 </Application>

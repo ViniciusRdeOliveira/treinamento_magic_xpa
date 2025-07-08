@@ -14,8 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="My First Program" ISN_2="1" LastIsn="1" id="2">
-          <LastModified _date="739436" _time="60198" date="04/07/2025" time="16:43:18"/>
-          <Public val="RunMe"/>
+          <LastModified _date="739440" _time="37364" date="08/07/2025" time="10:22:44"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -26,31 +25,29 @@
           <SqlWhereExist val="N"/>
           <TaskType val="C"/>
           <Interactive val="Y"/>
-          <External val="Y"/>
+          <External val="N"/>
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="14"/>
+        <ItemIsn val="15"/>
         <Resource>
           <Columns>
             <Column id="1" name="Customer_Code">
               <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="9"/>
-                <_Dec id="181"/>
-                <_Whole id="182" val="9"/>
-                <_Negative id="192"/>
-                <_FieldStyle id="276" val="1"/>
+                <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="1"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
               </PropertyList>
             </Column>
             <Column id="2" name="Customer_Name">
               <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="20"/>
+                <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="2"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="20"/>
-                <_Flip id="194"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
               </PropertyList>
             </Column>
             <Column id="3" name="Country">
@@ -119,6 +116,15 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
+            <Column id="15" name="AddressLabel">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="20"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="20"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
             <Column id="11" name="CHG_REASON_Country">
               <Comment val="Parametro Reason Numeric que retorna 0 ou 1 quando acionado"/>
               <PropertyList model="FIELD">
@@ -131,7 +137,7 @@
               </PropertyList>
             </Column>
             <Column id="12" name="CHG_PRV_Country">
-              <Comment val="PRV armazena o valor antigo da variavel virtual&#xD;&#xA;]&#xD;&#xA;"/>
+              <Comment val="PRV ar"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="20"/>
@@ -244,7 +250,7 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="2"/>
+                  <_DitIndexForToolkit val="1"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -258,6 +264,9 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <INT_RCMP_INFO>
+                    <v>35</v>
+                  </INT_RCMP_INFO>
                   <INT_DIT_INFO>
                     <v>22</v>
                   </INT_DIT_INFO>
@@ -276,11 +285,11 @@
                   <IsParameter val="N"/>
                   <INT_RCMP_INFO>
                     <v>12</v>
+                    <v>35</v>
                   </INT_RCMP_INFO>
                   <INT_DIT_INFO>
                     <v>7</v>
                     <v>9</v>
-                    <v>21</v>
                   </INT_DIT_INFO>
                   <_DitIndexForToolkit val="7"/>
                   <DIFF_UPDATE val="T"/>
@@ -295,9 +304,11 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <INT_RCMP_INFO>
+                    <v>35</v>
+                  </INT_RCMP_INFO>
                   <INT_DIT_INFO>
                     <v>9</v>
-                    <v>21</v>
                   </INT_DIT_INFO>
                   <_DitIndexForToolkit val="9"/>
                   <DIFF_UPDATE val="T"/>
@@ -312,9 +323,9 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <INT_DIT_INFO>
-                    <v>21</v>
-                  </INT_DIT_INFO>
+                  <INT_RCMP_INFO>
+                    <v>35</v>
+                  </INT_RCMP_INFO>
                   <_DitIndexForToolkit val="11"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -331,7 +342,7 @@
                   <INT_RCMP_INFO>
                     <v>12</v>
                   </INT_RCMP_INFO>
-                  <_DitIndexForToolkit val="13"/>
+                  <_DitIndexForToolkit val="14"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -388,6 +399,20 @@
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
                   <_DitIndexForToolkit val="22"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="15" FlowIsn="35" id="15">
+                  <ASS val="24"/>
+                  <Column val="15"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="12"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -691,52 +716,60 @@
         <TaskForms>
           <FormEntry _last_isn="22" _last_test_id="22" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
-              <Width id="23" val="363"/>
-              <Height id="24" val="501"/>
+              <X id="21" val="1"/>
+              <Y id="22" val="2"/>
+              <Width id="23" val="774"/>
+              <Height id="24" val="716"/>
               <FormUnits id="33" val="4"/>
               <VerticalFactor id="34" val="1"/>
               <HorizontalFactor id="35" val="1"/>
               <GridX id="38" val="5"/>
               <GridY id="39" val="13"/>
-              <Wallpaper id="42" val="C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\env\Wallpaper.jpg"/>
+              <Wallpaper id="42" val="%WorkingDir%env/Wallpaper.jpg"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="My First Program"/>
+              <WallpaperStyle id="448" val="5"/>
             </PropertyList>
-            <Control _test_id="2" id="2">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="Customer_Code"/>
-                <X id="21" val="18"/>
-                <Y id="22" val="6"/>
-                <Width id="23" val="78"/>
-                <Height id="24" val="27"/>
-                <Color id="51" val="4"/>
-                <Style id="63" val="7"/>
-                <_Orientation id="143"/>
-              </PropertyList>
-            </Control>
             <Control PDOD="1" _test_id="1" id="1">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model ID="MODEL_RICH_CLIENT" id="1">
                   <Var FieldID="1"/>
                 </Model>
                 <Placement id="20" right="100"/>
-                <X id="21" val="110"/>
+                <X id="21" val="116"/>
                 <Y id="22" val="6"/>
                 <Width id="23" val="58"/>
                 <Height id="24" val="27"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="Customer_Code"/>
-                <Color id="51" val="5"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
                 <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="2" id="2">
+              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+                <Text id="19" valUnicode="Customer_Code"/>
+                <Placement id="20" right="100"/>
+                <X id="21" val="8"/>
+                <Y id="22" val="9"/>
+                <Width id="23" val="90"/>
+                <Height id="24" val="15"/>
+                <Font id="50" val="11"/>
+                <Color id="51" val="4"/>
+                <Style id="63" val="7"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="4" id="4">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Text id="19" valUnicode="Customer_Name"/>
-                <X id="21" val="15"/>
-                <Y id="22" val="46"/>
-                <Width id="23" val="81"/>
-                <Height id="24" val="27"/>
+                <Placement id="20" right="100"/>
+                <X id="21" val="8"/>
+                <Y id="22" val="60"/>
+                <Width id="23" val="93"/>
+                <Height id="24" val="15"/>
+                <Font id="50" val="11"/>
                 <Color id="51" val="4"/>
                 <Style id="63" val="7"/>
                 <_Orientation id="143"/>
@@ -748,37 +781,42 @@
                   <Var FieldID="2"/>
                 </Model>
                 <Placement id="20" right="100"/>
-                <X id="21" val="110"/>
-                <Y id="22" val="46"/>
-                <Width id="23" val="150"/>
+                <X id="21" val="116"/>
+                <Y id="22" val="60"/>
+                <Width id="23" val="576"/>
                 <Height id="24" val="27"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="Customer_Name"/>
-                <Color id="51" val="5"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
             <Control _test_id="22" id="22">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Placement id="20" right="100"/>
-                <X id="21" val="14"/>
-                <Y id="22" val="82"/>
-                <Width id="23" val="287"/>
+                <X id="21" val="116"/>
+                <Y id="22" val="110"/>
+                <Width id="23" val="576"/>
                 <Height id="24" val="27"/>
                 <Data Exp="9" id="43"/>
-                <Color id="51" val="5"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
                 <Format id="82" valUnicode="30"/>
                 <Attribute id="83" val="85"/>
                 <TabOrder id="314" val="3"/>
+                <Border id="452" val="Y"/>
               </PropertyList>
             </Control>
             <Control _test_id="6" id="6">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Text id="19" valUnicode="Country"/>
-                <X id="21" val="18"/>
-                <Y id="22" val="120"/>
-                <Width id="23" val="38"/>
-                <Height id="24" val="27"/>
+                <Placement id="20" right="100"/>
+                <X id="21" val="12"/>
+                <Y id="22" val="160"/>
+                <Width id="23" val="45"/>
+                <Height id="24" val="15"/>
+                <Font id="50" val="11"/>
                 <Color id="51" val="4"/>
                 <Style id="63" val="7"/>
                 <_Orientation id="143"/>
@@ -790,23 +828,26 @@
                   <Var FieldID="3"/>
                 </Model>
                 <Placement id="20" right="100"/>
-                <X id="21" val="110"/>
-                <Y id="22" val="120"/>
-                <Width id="23" val="150"/>
+                <X id="21" val="116"/>
+                <Y id="22" val="160"/>
+                <Width id="23" val="576"/>
                 <Height id="24" val="27"/>
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="Country"/>
-                <Color id="51" val="5"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
                 <TabOrder id="314" val="4"/>
               </PropertyList>
             </Control>
             <Control _test_id="8" id="8">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Text id="19" valUnicode="City"/>
-                <X id="21" val="18"/>
-                <Y id="22" val="162"/>
-                <Width id="23" val="18"/>
-                <Height id="24" val="27"/>
+                <Placement id="20" right="100"/>
+                <X id="21" val="8"/>
+                <Y id="22" val="211"/>
+                <Width id="23" val="23"/>
+                <Height id="24" val="15"/>
+                <Font id="50" val="11"/>
                 <Color id="51" val="4"/>
                 <Style id="63" val="7"/>
                 <_Orientation id="143"/>
@@ -818,13 +859,14 @@
                   <Var FieldID="4"/>
                 </Model>
                 <Placement id="20" right="100"/>
-                <X id="21" val="110"/>
-                <Y id="22" val="162"/>
-                <Width id="23" val="150"/>
+                <X id="21" val="119"/>
+                <Y id="22" val="211"/>
+                <Width id="23" val="573"/>
                 <Height id="24" val="27"/>
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="City"/>
-                <Color id="51" val="5"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
                 <TabOrder id="314" val="5"/>
                 <AllowParking Exp="7" id="315" val="Y"/>
               </PropertyList>
@@ -832,10 +874,12 @@
             <Control _test_id="10" id="10">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Text id="19" valUnicode="Address"/>
-                <X id="21" val="14"/>
-                <Y id="22" val="204"/>
-                <Width id="23" val="40"/>
-                <Height id="24" val="27"/>
+                <Placement id="20" right="100"/>
+                <X id="21" val="8"/>
+                <Y id="22" val="261"/>
+                <Width id="23" val="47"/>
+                <Height id="24" val="15"/>
+                <Font id="50" val="11"/>
                 <Color id="51" val="4"/>
                 <Style id="63" val="7"/>
                 <_Orientation id="143"/>
@@ -847,29 +891,57 @@
                   <Var FieldID="5"/>
                 </Model>
                 <Placement id="20" right="100"/>
-                <X id="21" val="110"/>
-                <Y id="22" val="204"/>
-                <Width id="23" val="150"/>
+                <X id="21" val="118"/>
+                <Y id="22" val="261"/>
+                <Width id="23" val="574"/>
                 <Height id="24" val="27"/>
                 <Data FieldID="5" id="43"/>
                 <ControlName id="46" val="Address"/>
-                <Color id="51" val="5"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
                 <TabOrder id="314" val="6"/>
                 <AllowParking Exp="8" id="315" val="Y"/>
               </PropertyList>
             </Control>
-            <Control _test_id="21" id="21">
+            <Control PDOD="128" _test_id="21" id="21">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT" id="1">
+                  <Var FieldID="15"/>
+                </Model>
                 <Placement id="20" right="100"/>
-                <X id="21" val="18"/>
-                <Y id="22" val="241"/>
-                <Width id="23" val="292"/>
-                <Height id="24" val="27"/>
-                <Data Exp="3" id="43"/>
-                <Color id="51" val="5"/>
-                <Format id="82" valUnicode="60"/>
-                <Attribute id="83" val="85"/>
+                <X id="21" val="119"/>
+                <Y id="22" val="307"/>
+                <Width id="23" val="573"/>
+                <Height id="24" val="48"/>
+                <Data FieldID="15" id="43"/>
+                <ControlName id="46" val="AddressLabel"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
+                <HorizontalAlignment id="65" val="1"/>
+                <VerticalAlignment id="66" val="1"/>
+                <MultiLineEdit id="71" val="Y"/>
+                <VerticalScroll id="73" val="Y"/>
+                <AllowCRInData id="74" val="Y"/>
+                <Format id="82" valUnicode="200"/>
                 <TabOrder id="314" val="7"/>
+                <Border id="452" val="Y"/>
+                <MultilineWordwrapScroll id="455" val="3"/>
+                <MobileBorderWidth id="664"/>
+                <AutocompleteMode id="723" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="12" id="12">
+              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+                <Text id="19" valUnicode="Gold_Membership"/>
+                <Placement id="20" top="100"/>
+                <X id="21" val="12"/>
+                <Y id="22" val="420"/>
+                <Width id="23" val="102"/>
+                <Height id="24" val="15"/>
+                <Font id="50" val="11"/>
+                <Color id="51" val="4"/>
+                <Style id="63" val="7"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control PDOD="192" _test_id="11" id="11">
@@ -877,36 +949,27 @@
                 <Model ID="MODEL_RICH_CLIENT" id="1">
                   <Var FieldID="6"/>
                 </Model>
-                <Placement id="20" right="100"/>
-                <X id="21" val="110"/>
-                <Y id="22" val="272"/>
+                <Placement id="20" top="100"/>
+                <X id="21" val="120"/>
+                <Y id="22" val="420"/>
                 <Width id="23" val="40"/>
                 <Height id="24" val="27"/>
                 <Data FieldID="6" id="43"/>
                 <ControlName id="46" val="Gold_Membership"/>
-                <Color id="51" val="5"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
                 <TabOrder id="314" val="8"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="12" id="12">
-              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                <Text id="19" valUnicode="Gold_Membership"/>
-                <X id="21" val="14"/>
-                <Y id="22" val="282"/>
-                <Width id="23" val="88"/>
-                <Height id="24" val="27"/>
-                <Color id="51" val="4"/>
-                <Style id="63" val="7"/>
-                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="14" id="14">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Text id="19" valUnicode="Membership_Date"/>
-                <X id="21" val="14"/>
-                <Y id="22" val="312"/>
-                <Width id="23" val="88"/>
-                <Height id="24" val="27"/>
+                <Placement id="20" top="100"/>
+                <X id="21" val="12"/>
+                <Y id="22" val="468"/>
+                <Width id="23" val="103"/>
+                <Height id="24" val="15"/>
+                <Font id="50" val="11"/>
                 <Color id="51" val="4"/>
                 <Style id="63" val="7"/>
                 <_Orientation id="143"/>
@@ -917,24 +980,27 @@
                 <Model ID="MODEL_RICH_CLIENT" id="1">
                   <Var FieldID="7"/>
                 </Model>
-                <Placement id="20" right="100"/>
-                <X id="21" val="110"/>
-                <Y id="22" val="312"/>
-                <Width id="23" val="72"/>
+                <Placement id="20" top="100"/>
+                <X id="21" val="120"/>
+                <Y id="22" val="469"/>
+                <Width id="23" val="92"/>
                 <Height id="24" val="27"/>
                 <Data FieldID="7" id="43"/>
                 <ControlName id="46" val="Membership_Date"/>
-                <Color id="51" val="5"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
                 <TabOrder id="314" val="9"/>
               </PropertyList>
             </Control>
             <Control _test_id="16" id="16">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Text id="19" valUnicode="Membership_Time"/>
-                <X id="21" val="14"/>
-                <Y id="22" val="348"/>
-                <Width id="23" val="88"/>
-                <Height id="24" val="27"/>
+                <Placement id="20" top="100"/>
+                <X id="21" val="12"/>
+                <Y id="22" val="519"/>
+                <Width id="23" val="103"/>
+                <Height id="24" val="15"/>
+                <Font id="50" val="11"/>
                 <Color id="51" val="4"/>
                 <Style id="63" val="7"/>
                 <_Orientation id="143"/>
@@ -945,14 +1011,15 @@
                 <Model ID="MODEL_RICH_CLIENT" id="1">
                   <Var FieldID="8"/>
                 </Model>
-                <Placement id="20" right="100"/>
-                <X id="21" val="110"/>
-                <Y id="22" val="348"/>
-                <Width id="23" val="57"/>
+                <Placement id="20" top="100"/>
+                <X id="21" val="121"/>
+                <Y id="22" val="519"/>
+                <Width id="23" val="92"/>
                 <Height id="24" val="27"/>
                 <Data FieldID="8" id="43"/>
                 <ControlName id="46" val="Membership_Time"/>
-                <Color id="51" val="5"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
                 <TabOrder id="314" val="10"/>
                 <AllowParking Exp="12" id="315" val="Y"/>
               </PropertyList>
@@ -960,10 +1027,12 @@
             <Control _test_id="18" id="18">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Text id="19" valUnicode="Salary_Amount"/>
-                <X id="21" val="14"/>
-                <Y id="22" val="378"/>
-                <Width id="23" val="74"/>
-                <Height id="24" val="27"/>
+                <Placement id="20" top="100"/>
+                <X id="21" val="12"/>
+                <Y id="22" val="569"/>
+                <Width id="23" val="86"/>
+                <Height id="24" val="15"/>
+                <Font id="50" val="11"/>
                 <Color id="51" val="4"/>
                 <Style id="63" val="7"/>
                 <_Orientation id="143"/>
@@ -974,24 +1043,27 @@
                 <Model ID="MODEL_RICH_CLIENT" id="1">
                   <Var FieldID="9"/>
                 </Model>
-                <Placement id="20" right="100"/>
-                <X id="21" val="110"/>
-                <Y id="22" val="378"/>
-                <Width id="23" val="112"/>
+                <Placement id="20" top="100"/>
+                <X id="21" val="120"/>
+                <Y id="22" val="571"/>
+                <Width id="23" val="92"/>
                 <Height id="24" val="27"/>
                 <Data FieldID="9" id="43"/>
                 <ControlName id="46" val="Salary_Amount"/>
-                <Color id="51" val="5"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
                 <TabOrder id="314" val="11"/>
               </PropertyList>
             </Control>
             <Control _test_id="20" id="20">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Text id="19" valUnicode="Credit_Amount"/>
-                <X id="21" val="14"/>
-                <Y id="22" val="416"/>
-                <Width id="23" val="72"/>
-                <Height id="24" val="27"/>
+                <Placement id="20" top="100"/>
+                <X id="21" val="10"/>
+                <Y id="22" val="622"/>
+                <Width id="23" val="84"/>
+                <Height id="24" val="15"/>
+                <Font id="50" val="11"/>
                 <Color id="51" val="4"/>
                 <Style id="63" val="7"/>
                 <_Orientation id="143"/>
@@ -1002,14 +1074,15 @@
                 <Model ID="MODEL_RICH_CLIENT" id="1">
                   <Var FieldID="10"/>
                 </Model>
-                <Placement id="20" right="100"/>
-                <X id="21" val="110"/>
-                <Y id="22" val="422"/>
-                <Width id="23" val="114"/>
+                <Placement id="20" top="100"/>
+                <X id="21" val="118"/>
+                <Y id="22" val="623"/>
+                <Width id="23" val="94"/>
                 <Height id="24" val="27"/>
                 <Data FieldID="10" id="43"/>
                 <ControlName id="46" val="Credit_Amount"/>
-                <Color id="51" val="5"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="6"/>
                 <TabOrder id="314" val="12"/>
               </PropertyList>
             </Control>
@@ -1023,10 +1096,6 @@
           <Expression id="2">
             <ExpSyntax val="{0,9}>{0,10}"/>
             <ExpAttribute val="B"/>
-          </Expression>
-          <Expression id="3">
-            <ExpSyntax val="Trim({0,5})&amp;', '&amp;Trim({0,4})&amp;', '&amp;Trim({0,3})"/>
-            <ExpAttribute val="A"/>
           </Expression>
           <Expression id="4">
             <ExpSyntax val="{0,7}>Date()"/>
@@ -1103,6 +1172,10 @@
           <Expression id="23">
             <ExpSyntax val="IF(Upper({0,3})='TARTARUS',0,IF(Upper({0,3})='XANADU' AND {0,6},1000,{0,10}))"/>
             <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="24">
+            <ExpSyntax val="Trim({0,2})&amp;ASCIIChr(13)&amp;ASCIIChr(10)&amp;Trim({0,5})&amp;ASCIIChr(13)&amp;ASCIIChr(10)&amp;Trim({0,4})&amp;ASCIIChr(13)&amp;ASCIIChr(10)&amp;Trim({0,3})"/>
+            <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
       </Task>

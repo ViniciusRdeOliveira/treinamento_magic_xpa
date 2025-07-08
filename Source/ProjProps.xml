@@ -11,6 +11,8 @@
     <ProjectData>
       <GUID val="{7798D19F-0C7C-4556-9731-691972190F6A}"/>
       <RemoteFlowMonitorRight comp="-1"/>
+      <ApplColorDefinitionFile val="%WorkingDir%env\clr_rnt.eng"/>
+      <ApplFontDefinitionFile val="%WorkingDir%env\fnt_rnt.eng"/>
       <NulArithmetic val="N"/>
       <WindowSortBy val="R"/>
       <_SystemPulldownMenu comp="-1" obj="1"/>
