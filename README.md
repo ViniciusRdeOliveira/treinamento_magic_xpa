@@ -17,7 +17,6 @@
 <li>Heranças não são herdadas automaticamente se a propriedade já foi alterada manualmente antes</li>
 <li>O Engine do Magic é orientado a Eventos. Metodologia orientada a evento funciona em 3 partes. Evento, uma trigger e um handler. Os eventos podem ser internos ou criados pelo usuário(Desenvolvido). Trigger pode ser interno, feito pelo desenvolvedor ou acionado pelo usuário. Handler são operações efetuadas quando um evento é disparado.</li>
 <br>
-<br>
 <h3>Breve Resumo Sobre Execução</h3>
 <br>
 <table>
@@ -71,7 +70,6 @@
     </tr>
   </tbody>
 </table>
-<br>
 <br>
 <h3>Regras de Execuão</h3>
 <br>
@@ -144,3 +142,7 @@
     </tr>
   </tbody>
 </table>
+
+<li>Toda vez que tiver mais de um evento de mesma propriedade o Magic XPA irá executar somente o ultimo da lista. Salvo excessão se alterar as propriedades do ultimo evento criado (com o mesmo nome) e alterar a opção <b>Propagate</b>no Handlers do Evento</li>
+<li>Função <b>TRIM</b> remove espaços que podem conter antes e depois da string.</li>
+<li><b>LoopCounter()</b> é uma função que retorna  o número de  interações.</li>

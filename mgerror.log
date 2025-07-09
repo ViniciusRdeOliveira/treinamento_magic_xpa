@@ -235,3 +235,50 @@
  <475930626474061376> 07/07/2025 16:55:06.342     [Error  ] - Unable to open the Data Source: Suppliers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Supplier - Line Mode".
  <475930626474061376> 07/07/2025 16:55:06.342     [Error  ] - Error: browser program failed to open..., Program: "Main Program".
  <475930626474061376> 07/07/2025 16:55:06.343     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Suppliers : Supplier - Line Mode no such column: Suplier_Code : "RunMe" ("GettingStarted")  (msgid "115"), Program: "Main Program".
+ <453365829515246656> 08/07/2025 13:47:31.582     [Error  ] - Aborting context 453365829515246656, Program: "Main Program".
+ <561407852810723712> 08/07/2025 13:47:31.590     [Error  ] - Aborting context 561407852810723712, Program: "Main Program".
+ <16575186383388228> 08/07/2025 14:13:16.877     [Error  ] - Aborting context 16575186383388228, Program: "Main Program".
+ <259004347110966464> 08/07/2025 14:26:08.423     [Error  ] - Aborting context 259004347110966464, Program: "Main Program".
+ <158372034893862304> 08/07/2025 14:28:24.515     [Error  ] - Aborting context 158372034893862304, Program: "Main Program".
+ <186989249664397088> 08/07/2025 14:44:17.478     [Error  ] - Aborting context 186989249664397088, Program: "Main Program".
+ <125281414122478272> 08/07/2025 14:44:43.267     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:44.528     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:46.065     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:46.663     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:47.144     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:47.977     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:51.568     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:52.158     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:52.435     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:54.245     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:55.653     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:58.328     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:58.739     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:44:58.932     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:45:00.285     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:45:01.821     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:45:02.633     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:45:03.010     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:45:03.884     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:45:04.203     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:45:04.508     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:45:14.866     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <125281414122478272> 08/07/2025 14:50:02.888     [Error  ] - Aborting context 125281414122478272, Program: "Main Program".
+ <112688881970726384> 08/07/2025 14:51:45.483     [Error  ] - Aborting context 112688881970726384, Program: "Main Program".
+ <121655350612120672> 08/07/2025 14:54:23.305     [Error  ] - Aborting context 121655350612120672, Program: "Main Program".
+ <431189792246956800> 08/07/2025 15:33:26.635     [Error  ] - Aborting context 431189792246956800, Program: "Main Program".
+ <221270490264933184> 08/07/2025 16:03:24.085     [Error  ] - Aborting context 221270490264933184, Program: "Main Program".
+ <208695346407611328> 08/07/2025 16:04:00.975     [Error  ] - Aborting context 208695346407611328, Program: "Main Program".
+ <189178971577632448> 08/07/2025 16:13:46.115     [Error  ] - Aborting context 189178971577632448, Program: "Main Program".
+ <95303104688000432> 08/07/2025 16:49:09.115     [Error  ] - Aborting context 95303104688000432, Program: "Main Program".
+ <65161709217232152> 08/07/2025 16:50:12.149     [Error  ] - Unable to perform the operation, the record has been changed by another user or process. Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <65161709217232152> 08/07/2025 16:50:35.180     [Error  ] - Unable to perform the operation, the record has been changed by another user or process. Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <65161709217232152> 08/07/2025 16:50:52.745     [Error  ] - Unable to perform the operation, the record has been changed by another user or process. Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <65161709217232152> 08/07/2025 16:51:01.583     [Error  ] - Aborting context 65161709217232152, Program: "Main Program".
+ <307832822034614336> 08/07/2025 16:57:49.000     [Error  ] - Unable to perform the operation, the record has been changed by another user or process. Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Customers - Line Mode".
+ <307832822034614336> 08/07/2025 17:05:23.463     [Error  ] - Aborting context 307832822034614336, Program: "Main Program".
+ <342527028865457728> 08/07/2025 17:59:41.688     [Error  ] - Aborting context 342527028865457728, Program: "Main Program".
+ <504976553564671616> 09/07/2025 08:30:05.149     [Error  ] - Aborting context 504976553564671616, Program: "Main Program".
+ <221295309654306112> 09/07/2025 08:43:31.521     [Error  ] - Aborting context 221295309654306112, Program: "Main Program".
+ <363773943894182848> 09/07/2025 08:44:54.286     [Error  ] - Aborting context 363773943894182848, Program: "Main Program".
+ <413195117807223680> 09/07/2025 08:46:56.172     [Error  ] - Aborting context 413195117807223680, Program: "Main Program".

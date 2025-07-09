@@ -14,7 +14,8 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Customers - Line Mode" ISN_2="1" LastIsn="1" id="11">
-          <LastModified _date="739440" _time="40074" date="08/07/2025" time="11:07:54"/>
+          <LastModified _date="739440" _time="60407" date="08/07/2025" time="16:46:47"/>
+          <Public val="RunMe"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -25,7 +26,7 @@
           <SqlWhereExist val="N"/>
           <TaskType val="C"/>
           <Interactive val="Y"/>
-          <External val="N"/>
+          <External val="Y"/>
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
@@ -126,7 +127,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="5"/>
+                  <_DitIndexForToolkit val="7"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -139,7 +140,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="6"/>
+                  <_DitIndexForToolkit val="8"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -188,7 +189,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="7"/>
+                  <_DitIndexForToolkit val="9"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -245,22 +246,148 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="30"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="14">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="9"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Variable val="2"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Skip val="Y"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+              <LogicLine>
+                <RaiseEvent FlowIsn="15">
+                  <Event>
+                    <EventType val="I"/>
+                    <InternalEventID val="295"/>
+                  </Event>
+                  <Wait val="78"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </RaiseEvent>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="4" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="1"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="16">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="9"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Skip val="Y"/>
+                    </Argument>
+                    <Argument>
+                      <Expression val="1"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="21" _last_test_id="21" id="1">
+          <FormEntry _last_isn="23" _last_test_id="23" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
               <Width id="23" val="310"/>
-              <Height id="24" val="187"/>
+              <Height id="24" val="220"/>
               <Wallpaper id="42" val="C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\env\Wallpaper.jpg"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Customers - Line Mode"/>
               <WallpaperStyle id="448" val="5"/>
             </PropertyList>
+            <Control _test_id="23" id="23">
+              <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+                <X id="21" val="237"/>
+                <Y id="22" val="14"/>
+                <Width id="23" val="10"/>
+                <Height id="24" val="8"/>
+                <Color id="51" val="5"/>
+                <Format id="82"/>
+                <ImageListFileName id="88" val="C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\images\Add.png"/>
+                <ButtonStyle id="96" val="2"/>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="1"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="22" id="22">
+              <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+                <X id="21" val="262"/>
+                <Y id="22" val="14"/>
+                <Width id="23" val="10"/>
+                <Height id="24" val="8"/>
+                <Color id="51" val="5"/>
+                <Format id="82"/>
+                <ImageListFileName id="88" val="C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\images\Edit.png"/>
+                <ButtonStyle id="96" val="2"/>
+                <RaiseEvent id="234">
+                  <EventType val="I"/>
+                  <InternalEventID val="30"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
             <Control _test_id="1" id="1">
               <PropertyList model="CTRL_RICH_CLIENT_TABLE">
                 <Model comp="-1" id="1" obj="15"/>
                 <X id="21" val="8"/>
-                <Y id="22" val="6"/>
+                <Y id="22" val="35"/>
                 <Width id="23" val="273"/>
                 <Height id="24" val="147"/>
                 <ControlName id="46"/>
@@ -268,7 +395,6 @@
                 <RowHeight id="80" val="14"/>
                 <Elements id="81" val="3"/>
                 <_WindowWidth id="241" val="272"/>
-                <RowHighlightStyle id="409" val="1"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="2" id="2">
@@ -303,7 +429,7 @@
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="10"/>
-                <Y id="22" val="19"/>
+                <Y id="22" val="48"/>
                 <Width id="23" val="50"/>
                 <Height id="24" val="12"/>
                 <ControlLayer id="25" val="1"/>
@@ -312,7 +438,7 @@
                 <Font id="50" val="12"/>
                 <Color id="51" val="6"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="1"/>
+                <TabOrder id="314" val="3"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -324,7 +450,7 @@
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="82"/>
-                <Y id="22" val="19"/>
+                <Y id="22" val="48"/>
                 <Width id="23" val="115"/>
                 <Height id="24" val="12"/>
                 <ControlLayer id="25" val="2"/>
@@ -333,7 +459,7 @@
                 <Font id="50" val="12"/>
                 <Color id="51" val="6"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="2"/>
+                <TabOrder id="314" val="4"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -345,7 +471,7 @@
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="185"/>
-                <Y id="22" val="19"/>
+                <Y id="22" val="48"/>
                 <Width id="23" val="31"/>
                 <Height id="24" val="12"/>
                 <ControlLayer id="25" val="3"/>
@@ -354,13 +480,24 @@
                 <Font id="50" val="12"/>
                 <Color id="51" val="6"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="3"/>
+                <TabOrder id="314" val="5"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
             </Control>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="1">
+            <ExpSyntax val="'TRUE'LOG"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+        </Expressions>
+        <EVNT DESC="Add" FORCE_EXIT="N" id="1">
+          <Event>
+            <EventType val="N"/>
+          </Event>
+        </EVNT>
       </Task>
     </Programs>
   </ProgramsRepository>
