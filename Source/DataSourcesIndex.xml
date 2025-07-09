@@ -21,6 +21,6 @@
 <DataObject PhysicalName="Customers" Public="0" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="1" name="Customers" offset="228" length="6867"/> 
 <DataObject PhysicalName="Suppliers" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="3" name="Suppliers" offset="7096" length="4484"/> 
 <DataObject PhysicalName="Orders" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="4" name="Orders" offset="11581" length="5136"/> 
-<DataObject PhysicalName="Products" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="7" name="Products" offset="16718" length="5736"/>  </DataObjects>
+<DataObject PhysicalName="Products" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="7" name="Products" offset="16718" length="5735"/>  </DataObjects>
  </DataSourceRepository>
- <LastModified val="31191290-86305046"/>  </Application>
+ <LastModified val="3119131058224283"/>  </Application>

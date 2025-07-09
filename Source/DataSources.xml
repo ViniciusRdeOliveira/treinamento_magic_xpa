@@ -476,7 +476,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="Products" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="7" name="Products">
+<DataObject PhysicalName="Products" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="7" name="Products">
 
   <Encrypt val="N"/>
 
