@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="3"/>
+  <LastIsn val="4"/>
 
   <LastIsnFolder val="0"/>
 
@@ -304,6 +304,164 @@
       <DropOnReindex val="N"/>
       <Primary val="N"/>
       <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="Orders" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="4" name="Orders">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-1"/>
+
+  <IndexesLastIsn val="3"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="Order_Number">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="6"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="Order_Number"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="6"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="Order_Number" PIC_U="6" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="Order_Date">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" id="1"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="Order_Date"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="Order_Date" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="3" name="Customer_Code">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="1"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="Customer_Code"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="Customer_Code" PIC_U="9" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+      </PropertyList>
+    </Column>
+    <Column id="4" name="Amount">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="8.2"/>
+        <StoredAs id="173" val="6"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="Amount"/>
+        <_Dec id="181" val="2"/>
+        <_Whole id="182" val="8"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="Amount" PIC_U="8.2" Size="8" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="5" name="Method_Of_Payment">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="15"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="15"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="Method_Of_Payment"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="Method_Of_Payment" PIC_U="15" Size="15" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <DefaultStorage id="274" val="Y"/>
+        <RichClient id="453">
+          <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+            <ItemsList id="45" valUnicode="Cash,Check,Credit Card,Coupons"/>
+          </PropertyList>
+        </RichClient>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="Order_Number">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="Order_Number"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+    <Index id="3" name="Customer">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="Customer"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="3"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="8"/>
+          <Column val="2"/>
+          <Order val="A"/>
+        </Segment>
         <Segment>
           <Size val="4"/>
           <Column val="1"/>

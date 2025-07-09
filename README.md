@@ -151,15 +151,65 @@
 <li>A função <b>CndRange</b> é utilizada para verificar se um valor está dentro de um intervalo definido de valores. É comumente usada em expressões condicionais, especialmente para simplificar verificações de múltiplos valores.</li>
 <li>A função Mid no Magic xpa é usada para extrair uma substring (parte de uma string) a partir de uma posição específica, com um tamanho definido.<br>
 Mid(string, start, length)<br>
-Mid('123.456.789-00', 5, 3) -> Retorna: '456'
+Mid('123.456.789-00', 5, 3) -> Retorna: '456'<br>
 Mid('Vinicius', 1, 3) -> Retorna: 'Vin'<br>
-<li>A função <b>Stat</b> é usada para obter estatísticas sobre um arquivo, como se ele existe, seu tamanho, data de modificação etc.<br>
-Stat( FileName, StatType )
-<br>
+<>A função <b>Stat</b> é usada para obter estatísticas sobre um arquivo, como se ele existe, seu tamanho, data de modificação etc.<br>
+Stat( FileName, StatType )<br>
 
 <b>FileName:</b> caminho completo (ou relativo) do arquivo.<br>
 <b>StatType:</b> número que indica o tipo de informação desejada.<br>
-
+<table>
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Retorna</th>
+      <th>Exemplo Magic xpa</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Arquivo existe (1 = sim, 0 = não)</td>
+      <td>Stat('c:\\temp\\arquivo.txt', 1)</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Tamanho do arquivo (em bytes)</td>
+      <td>Stat('c:\\temp\\arquivo.txt', 2)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Data de criação</td>
+      <td>Stat('c:\\temp\\arquivo.txt', 3)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Hora de criação</td>
+      <td>Stat('c:\\temp\\arquivo.txt', 4)</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Data da última modificação</td>
+      <td>Stat('c:\\temp\\arquivo.txt', 5)</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Hora da última modificação</td>
+      <td>Stat('c:\\temp\\arquivo.txt', 6)</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Nome do drive</td>
+      <td>Stat('c:\\temp\\arquivo.txt', 7)</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Atributos do arquivo</td>
+      <td>Stat('c:\\temp\\arquivo.txt', 8)</td>
+    </tr>
+  </tbody>
+</table>
+<br>
 <table>
   <thead>
     <tr>
@@ -196,5 +246,98 @@ Stat( FileName, StatType )
     </tr>
   </tbody>
 </table>
+<br>
+<h3>Relacionamento Um para Um x Um para Muitos</h3>
 
-</li>
+<p>
+    No <strong>Magic xpa</strong> você pode estabelecer os dois seguintes relacionamentos entre fonte de dados:
+</p>
+<ul>
+    <li>Um para um</li>
+    <li>Um para muitos</li>
+</ul>
+
+<p>Abaixo, a comparação entre os relacionamentos:</p>
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Um para Um</th>
+            <th>Um para Muitos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Variáveis comuns são usadas para manter a conexão</td>
+            <td>Variáveis comuns são usadas para manter a conexão</td>
+        </tr>
+        <tr>
+            <td>A fonte principal e as fontes vinculadas (<em>linked</em>) são definidas na mesma tarefa</td>
+            <td>Cada fonte de dados é definida como fonte principal em tarefas diferentes</td>
+        </tr>
+        <tr>
+            <td>A fonte de dados vinculada retorna apenas um registro</td>
+            <td>Cada registro pode retornar vários registros</td>
+        </tr>
+        <tr>
+            <td>O mecanismo de recálculo do Magic xpa é responsável por manter a conexão</td>
+            <td>
+                O <em>range</em> da tarefa é responsável por manter a conexão, de acordo com parâmetro passado.<br>
+                Além disso, o mecanismo de controle do Subform do Magic xpa também é responsável por manter a conexão.
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de Link</th>
+      <th>Descrição</th>
+      <th>Uso Principal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Link Query</td>
+      <td>Permite acesso somente leitura aos registros da subtarefa.</td>
+      <td>Visualizar dados relacionados sem alterar.</td>
+    </tr>
+    <tr>
+      <td>Link Write</td>
+      <td>Permite leitura e escrita (edição, exclusão, inserção).</td>
+      <td>Editar ou incluir dados em subtarefas.</td>
+    </tr>
+    <tr>
+      <td>Link Inner Join</td>
+      <td>Exibe apenas registros com correspondência entre as tarefas.</td>
+      <td>Relacionamentos obrigatórios, como pedidos com clientes existentes.</td>
+    </tr>
+    <tr>
+      <td>Link Outer Join</td>
+      <td>Exibe todos os registros da tarefa principal, com ou sem correspondência na secundária.</td>
+      <td>Relacionamentos opcionais, como clientes sem pedidos.</td>
+    </tr>
+    <tr>
+      <td>Link Range</td>
+      <td>Filtra registros com base em um intervalo (range) de valores.</td>
+      <td>Exibir dados entre datas, faixas de ID, etc.</td>
+    </tr>
+    <tr>
+      <td>Link Expression</td>
+      <td>Usa uma expressão booleana para definir o vínculo entre registros.</td>
+      <td>Filtragem dinâmica com múltiplas condições.</td>
+    </tr>
+    <tr>
+      <td>Link Condition</td>
+      <td>Define condições específicas baseadas em campos relacionados.</td>
+      <td>Condicional entre campos, como Order.CustomerID = Customer.ID.</td>
+    </tr>
+    <tr>
+      <td>Link Virtual</td>
+      <td>Cria um link lógico sem acessar dados diretamente.</td>
+      <td>Usado para controle de interface, lógica ou placeholders.</td>
+    </tr>
+  </tbody>
+</table>
+<br>

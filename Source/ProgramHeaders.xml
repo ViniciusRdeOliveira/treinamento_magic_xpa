@@ -69,7 +69,7 @@
     </Program>
     <Program>
       <Header Description="Customers - Screen Mode" ISN_2="1" LastIsn="1" id="9">
-        <LastModified _date="739441" _time="34546" date="09/07/2025" time="09:35:46"/>
+        <LastModified _date="739441" _time="35872" date="09/07/2025" time="09:57:52"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -89,12 +89,11 @@
         <FormType val="M"/>
         <DotNetObjectExists val="N"/>
       </Header>
-      <SourceFileTimeStamp _date="739441" _time="45346" date="09/07/2025" time="12:35:46"/>
+      <SourceFileTimeStamp _date="739441" _time="46672" date="09/07/2025" time="12:57:52"/>
     </Program>
     <Program>
       <Header Description="Customers - Line Mode" ISN_2="1" LastIsn="1" id="11">
-        <LastModified _date="739440" _time="60407" date="08/07/2025" time="16:46:47"/>
-        <Public val="RunMe"/>
+        <LastModified _date="739441" _time="39301" date="09/07/2025" time="10:55:01"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -105,12 +104,12 @@
         <SqlWhereExist val="N"/>
         <TaskType val="C"/>
         <Interactive val="Y"/>
-        <External val="Y"/>
+        <External val="N"/>
         <Offline val="N"/>
         <FormType val="M"/>
         <DotNetObjectExists val="N"/>
       </Header>
-      <SourceFileTimeStamp _date="739440" _time="71207" date="08/07/2025" time="19:46:47"/>
+      <SourceFileTimeStamp _date="739441" _time="50101" date="09/07/2025" time="13:55:01"/>
     </Program>
     <Program>
       <Header Description="Suppliers - Line Mode" ISN_2="1" LastIsn="1" id="13">
@@ -131,6 +130,27 @@
         <DotNetObjectExists val="N"/>
       </Header>
       <SourceFileTimeStamp _date="739440" _time="60266" date="08/07/2025" time="16:44:26"/>
+    </Program>
+    <Program>
+      <Header Description="Orders" ISN_2="1" LastIsn="1" id="14">
+        <LastModified _date="739441" _time="42063" date="09/07/2025" time="11:41:03"/>
+        <Public val="RunMe"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="Y"/>
+        <External val="Y"/>
+        <Offline val="N"/>
+        <FormType val="D"/>
+        <DotNetObjectExists val="N"/>
+      </Header>
+      <SourceFileTimeStamp _date="739441" _time="52863" date="09/07/2025" time="14:41:03"/>
     </Program>
   </ProgramsRepositoryHeaders>
 

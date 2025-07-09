@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Customers - Screen Mode" ISN_2="1" LastIsn="1" id="9">
-          <LastModified _date="739441" _time="34546" date="09/07/2025" time="09:35:46"/>
+          <LastModified _date="739441" _time="35872" date="09/07/2025" time="09:57:52"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -617,21 +617,96 @@
             <Scope val="S"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
-            <Condition val="89"/>
+            <Condition val="-15"/>
             <Event>
               <EventType val="S"/>
             </Event>
             <ExecuteOn_ val="O"/>
             <LogicLines>
               <LogicLine>
-                <BLOCK EndBlock="85" EndBlockSegment="85" FlowIsn="84" Type="I">
-                  <Condition Exp="15"/>
+                <BLOCK EndBlock="93" EndBlockSegment="94" FlowIsn="84" Type="I">
+                  <Condition Exp="16"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </BLOCK>
               </LogicLine>
               <LogicLine>
+                <BLOCK EndBlock="85" EndBlockSegment="88" FlowIsn="86" Type="I">
+                  <Condition Exp="17"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="91">
+                  <FieldID val="10"/>
+                  <WithValue val="18"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <BLOCK EndBlock="85" EndBlockSegment="85" FlowIsn="88" Type="E">
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="92">
+                  <FieldID val="10"/>
+                  <WithValue val="19"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
                 <END_BLK FlowIsn="85"/>
+              </LogicLine>
+              <LogicLine>
+                <BLOCK EndBlock="93" EndBlockSegment="96" FlowIsn="94" Type="E">
+                  <Condition Exp="20"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="95">
+                  <FieldID val="10"/>
+                  <WithValue val="21"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <BLOCK EndBlock="93" EndBlockSegment="93" FlowIsn="96" Type="E">
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="97">
+                  <FieldID val="10"/>
+                  <WithValue val="22"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="93"/>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -1014,6 +1089,34 @@
           <Expression id="15">
             <ExpSyntax val="Stat(0,'C'MODE)"/>
             <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="16">
+            <ExpSyntax val="{0,9}>8000"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="17">
+            <ExpSyntax val="{0,5}"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="18">
+            <ExpSyntax val="{0,9}*3"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="19">
+            <ExpSyntax val="{0,9}*2"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="20">
+            <ExpSyntax val="{0,9}>1000"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="21">
+            <ExpSyntax val="{0,9}"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="22">
+            <ExpSyntax val="{0,9}/2"/>
+            <ExpAttribute val="N"/>
           </Expression>
         </Expressions>
         <EVNT DESC="SetGoldMembership" FORCE_EXIT="N" id="1">
