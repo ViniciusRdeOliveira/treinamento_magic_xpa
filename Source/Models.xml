@@ -4,7 +4,7 @@
   <Header>
     <Version val="14100.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="16"/>
+    <LastIsn val="17"/>
     <LastIsnFolder val="0"/>
   </Header>
 
@@ -134,6 +134,12 @@
         <PropertyList model="CTRL_RICH_CLIENT_COLUMN">
           <Font id="50" val="11"/>
           <Color id="51" val="4"/>
+        </PropertyList>
+      </Object>
+      <Object id="17" name="Button">
+        <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+          <Font id="50" val="12"/>
+          <Color id="51" val="5"/>
         </PropertyList>
       </Object>
     </Models>
