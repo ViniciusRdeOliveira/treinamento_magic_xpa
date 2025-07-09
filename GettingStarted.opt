@@ -17,36 +17,6 @@
     <Program PrgIsn="9">
       <ExpandedItem>
         <TaskIsn Val="1"/>
-        <Type Val="2"/>
-        <HandlerIsn Val="3"/>
-      </ExpandedItem>
-      <ExpandedItem>
-        <TaskIsn Val="1"/>
-        <Type Val="2"/>
-        <HandlerIsn Val="4"/>
-      </ExpandedItem>
-      <ExpandedItem>
-        <TaskIsn Val="1"/>
-        <Type Val="2"/>
-        <HandlerIsn Val="5"/>
-      </ExpandedItem>
-      <ExpandedItem>
-        <TaskIsn Val="1"/>
-        <Type Val="2"/>
-        <HandlerIsn Val="6"/>
-      </ExpandedItem>
-      <ExpandedItem>
-        <TaskIsn Val="1"/>
-        <Type Val="2"/>
-        <HandlerIsn Val="7"/>
-      </ExpandedItem>
-      <ExpandedItem>
-        <TaskIsn Val="1"/>
-        <Type Val="2"/>
-        <HandlerIsn Val="8"/>
-      </ExpandedItem>
-      <ExpandedItem>
-        <TaskIsn Val="1"/>
         <Type Val="4"/>
         <OperationIsn Val="60"/>
       </ExpandedItem>
@@ -59,6 +29,21 @@
         <TaskIsn Val="1"/>
         <Type Val="4"/>
         <OperationIsn Val="72"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="80"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="10"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="84"/>
       </ExpandedItem>
     </Program>
     <Program PrgIsn="11">

@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Customers - Screen Mode" ISN_2="1" LastIsn="1" id="9">
-          <LastModified _date="739441" _time="31567" date="09/07/2025" time="08:46:07"/>
+          <LastModified _date="739441" _time="34546" date="09/07/2025" time="09:35:46"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -34,7 +34,7 @@
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="18"/>
+        <ItemIsn val="20"/>
         <Resource>
           <DB id="1">
             <DataObject comp="-1" obj="1"/>
@@ -577,6 +577,64 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="9" propagate="78">
+            <Level val="V"/>
+            <Type val="C"/>
+            <FieldID val="4"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <BLOCK EndBlock="81" EndBlockSegment="81" FlowIsn="80" Type="L">
+                  <Condition Exp="13"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="82" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="O Endereço contem o caractere @" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition Exp="14"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="81"/>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="10" propagate="78">
+            <Level val="V"/>
+            <Type val="C"/>
+            <FieldID val="9"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <BLOCK EndBlock="85" EndBlockSegment="85" FlowIsn="84" Type="I">
+                  <Condition Exp="15"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="85"/>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="26" _last_test_id="26" id="1">
@@ -652,7 +710,7 @@
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
-                <Y id="22" val="65"/>
+                <Y id="22" val="59"/>
                 <Width id="23" val="111"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="2" id="43"/>
@@ -676,7 +734,7 @@
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model comp="-1" id="1" obj="5"/>
                 <X id="21" val="115"/>
-                <Y id="22" val="92"/>
+                <Y id="22" val="85"/>
                 <Width id="23" val="111"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="3" id="43"/>
@@ -944,6 +1002,18 @@
           <Expression id="12">
             <ExpSyntax val="'London'"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="13">
+            <ExpSyntax val="LoopCounter()&lt;= Len(Trim({0,4}))"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="14">
+            <ExpSyntax val="MID({0,4},LoopCounter(),1) = '@'"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="15">
+            <ExpSyntax val="Stat(0,'C'MODE)"/>
+            <ExpAttribute val="B"/>
           </Expression>
         </Expressions>
         <EVNT DESC="SetGoldMembership" FORCE_EXIT="N" id="1">
