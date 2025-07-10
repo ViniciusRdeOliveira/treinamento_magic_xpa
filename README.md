@@ -434,7 +434,7 @@ Stat( FileName, StatType )<br>
   </thead>
   <tbody>
     <tr>
-      <td>White</td>
+      <td>White (Branco)</td>
       <td>
         • Operações <strong>Client-side</strong> que precisam ser executadas no lado do <strong>client</strong><br>
         • Cabeçalhos de <em>handlers</em> que contêm operações no lado do <strong>client</strong><br>
