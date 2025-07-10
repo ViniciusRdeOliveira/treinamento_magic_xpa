@@ -14,7 +14,8 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Orders - Line" ISN_2="1" LastIsn="1" id="15">
-          <LastModified _date="739442" _time="52096" date="10/07/2025" time="14:28:16"/>
+          <LastModified _date="739442" _time="59328" date="10/07/2025" time="16:28:48"/>
+          <Public val="RunMe"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -25,7 +26,7 @@
           <SqlWhereExist val="N"/>
           <TaskType val="C"/>
           <Interactive val="Y"/>
-          <External val="N"/>
+          <External val="Y"/>
           <Offline val="N"/>
           <FormType val="D"/>
           <DotNetObjectExists val="N"/>

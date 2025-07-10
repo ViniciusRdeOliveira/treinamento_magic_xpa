@@ -443,7 +443,7 @@ Stat( FileName, StatType )<br>
       </td>
     </tr>
     <tr>
-      <td style="background-color:#fbb4d4;">Server</td>
+      <td style="background-color:#fbb4d4;">Server (Rosa)</td>
       <td>
         • Operações <strong>Server-side</strong> que precisam ser executadas no lado do <strong>server</strong><br>
         • Cabeçalhos de <em>handlers</em> que contêm operações no lado do <strong>server</strong><br>
@@ -451,7 +451,7 @@ Stat( FileName, StatType )<br>
       </td>
     </tr>
     <tr>
-      <td style="background-color:#e0ffe0;">Unknown</td>
+      <td style="background-color:#e0ffe0;">Unknown (Verde)</td>
       <td>
         • Operações de lado desconhecidas. Estas são operações nas quais o <em>Studio</em> não consegue identificar se serão executadas no lado do <strong>server</strong> ou <strong>client</strong>.
       </td>
@@ -460,4 +460,50 @@ Stat( FileName, StatType )<br>
 </table>
 
 <p>Linhas neutras terão as mesmas cores da linha acima delas, pois elas serão executadas em qualquer lado que esteja fazendo o processamento.</p>
+<br>
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Tarefas Rich Client x Batch</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Rich Client</th>
+      <th>Batch</th>
+    </tr>
+    <tr>
+      <td>Permite interação com o usuário final</td>
+      <td>Não permite interação com o usuário final</td>
+    </tr>
+    <tr>
+      <td>O usuário final pode navegar entre os registros da fonte principal</td>
+      <td>A tarefa verifica todos os registros da fonte principal dentro dos critérios do range. Se nenhuma fonte principal for definida ou a tarefa estiver no modo de criação, a tarefa será repetida até que a condição do End Task seja atendida.</td>
+    </tr>
+    <tr>
+      <td>A unidade lógica do controle está disponível.</td>
+      <td>A unidade lógica do controle não está disponível, uma vez que não há interação com o usuário final e o motor não para em nenhum controle.</td>
+    </tr>
+    <tr>
+      <td>O motor lida com a lógica relacionada à navegação do usuário final.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>A unidade lógica do Group não está disponível.</td>
+      <td>A unidade lógica do Group está disponível e permite controlar grupos de dados.</td>
+    </tr>
+    <tr>
+      <td>O formulário da tarefa é uma parte essencial da criação da tarefa e sua execução.</td>
+      <td>O formulário da tarefa é opcional e na maioria das vezes ela não é usada.</td>
+    </tr>
+    <tr>
+      <td>Se o dado for alterado, o Record Suffix é executado e o registro gravado.</td>
+      <td>O Record Suffix é sempre executado.</td>
+    </tr>
+    <tr>
+      <td>Os eventos são tratados quando a tarefa estiver ociosa.</td>
+      <td>Os eventos são tratados a cada período de tempo ou a cada quantidade processada de registros.</td>
+    </tr>
+  </tbody>
+</table>
 <br>
