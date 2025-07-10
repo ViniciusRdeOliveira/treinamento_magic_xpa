@@ -341,3 +341,123 @@ Stat( FileName, StatType )<br>
   </tbody>
 </table>
 <br>
+<h2>Operações Client-Side x Server-Side</h2>
+<p>Algumas operações internas do Magic xpa são client-side e outras server-side.</p>
+
+<table>
+  <thead>
+    <tr><th>Operação</th><th>Onde é executada</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Verify</td><td>Client</td></tr>
+    <tr>
+      <td>Call</td>
+      <td>
+        <strong>Mixed</strong>: um Call para uma tarefa <em>Rich Client</em> usando a propriedade <em>Destination</em>. Há acesso imediato ao <strong>client</strong> para fechar a tarefa que está sendo executada no <em>Subform</em> naquele momento.<br>
+        <strong>Server</strong>: outras chamadas são consideradas como <strong>Server</strong>, pois ocorre acesso ao <strong>server</strong> para iniciar a tarefa que está sendo chamada.
+      </td>
+    </tr>
+    <tr>
+      <td>Update</td>
+      <td>Depende da variável que está sendo atualizada e da expressão usada para atualizá-la.</td>
+    </tr>
+    <tr>
+      <td>Invoke</td>
+      <td>
+        <strong>Server</strong> – UDP, Web S, Web S Lite<br>
+        <strong>Client e Server</strong> – OS Cmd<br>
+        <strong>COM</strong> – Não suportado em tarefas <em>Rich Client</em>
+      </td>
+    </tr>
+    <tr>
+      <td>Raise Event</td>
+      <td>É determinado pelo lado de execução do <em>handler</em> do evento.</td>
+    </tr>
+    <tr>
+      <td>Evaluate</td>
+      <td>Pode ser executado tanto no lado do <strong>client</strong> quanto no do <strong>server</strong> dependendo da operação.</td>
+    </tr>
+    <tr>
+      <td>Block</td>
+      <td>Pode ser executado tanto no lado do <strong>client</strong> quanto no <strong>server</strong> dependendo da operação.</td>
+    </tr>
+    <tr>
+      <td>Form</td>
+      <td>Não suportado em tarefas <em>Rich Client</em>. Você pode executar relatórios no <strong>server</strong> e exibí-los no <strong>client</strong>.</td>
+    </tr>
+    <tr>
+      <td>Link Query</td>
+      <td><strong>Server</strong>. É recomendado que você limite o uso de operações <em>Link</em>, pois elas são custosas em termos de interação com o <strong>server</strong>. Muitas vezes, você pode usar um controle <em>Data</em> ou <em>Inner Join</em>.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h2>O Ciclo de Vida da Tarefa</h2>
+<p>Quando estiver desenvolvendo programas <em>Rich Client</em>, algumas unidades lógicas são executadas no <strong>client</strong> e outras no <strong>server</strong>:</p>
+
+<table>
+  <thead>
+    <tr><th>Operação</th><th>Onde é executada</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><em>Task Prefix</em></td><td><strong>Server</strong>. Nenhuma operação ou função <em>client-side</em> pode ser usada aqui.</td></tr>
+    <tr><td><em>Task Suffix</em></td><td>Pode ser <strong>client</strong> ou <strong>server</strong>, dependendo das operações internas.</td></tr>
+    <tr><td><em>Record</em></td><td>Pode ser <strong>client</strong> ou <strong>server</strong>. É recomendado que não se utilize funções e operações <strong>Server-side</strong> aqui para diminuir o acesso ao <strong>server</strong> quando estiver navegando pelos registros.</td></tr>
+    <tr><td><em>Control</em></td><td>Pode ser <strong>client</strong> ou <strong>server</strong>. É recomendado que não se utilize funções e operações <strong>Server-side</strong> aqui para diminuir o acesso ao <strong>server</strong> ao percorrer os controles.</td></tr>
+    <tr><td><em>Variable Change</em></td><td>Pode ser <strong>client</strong> ou <strong>server</strong>. É recomendado que não se utilize funções e operações <strong>Server-side</strong> aqui para diminuir o acesso ao <strong>server</strong> durante o mecanismo de recálculo ou quando alterar o valor do controle.</td></tr>
+    <tr><td><em>Error</em></td><td><strong>Server</strong></td></tr>
+  </tbody>
+</table>
+<br>
+<h2>Identificando Atividades <em>Client</em> e <em>Server</em></h2>
+
+<ul>
+  <li>Como algumas operações são <em>client</em> e outras <em>server</em>, quando estiver desenvolvendo um programa é importante saber onde o programa pode ter problema de desempenho devido ao tráfego de/para do cliente e do servidor.</li>
+  <li><strong>O Magic xpa</strong> fornece um auxílio visual exibindo o modo de cada <em>handler</em>, operação e função. Um caractere aparece à esquerda do número da linha e representa o modo, conforme abaixo:
+    <ul>
+      <li><strong>C</strong> – tratamento do lado do <em>client</em>.</li>
+      <li><strong>S</strong> – tratamento do lado do <em>server</em>.</li>
+      <li><strong>M</strong> – <em>Mixed</em>. A operação será executada em ambos, <em>client</em> e <em>server</em>.</li>
+      <li><strong>U</strong> – <em>Unknown</em>. São para operações que o Studio não sabe onde será calculado.</li>
+      <li><strong>E</strong> – <em>Error</em>. A operação não é suportada.</li>
+    </ul>
+  </li>
+  <li>Se o caractere não aparecer, a entrada pode ser executada tanto no <em>client</em> quanto no <em>server</em>.</li>
+</ul>
+<br>
+<h2>Cores da Operação <em>Rich Client</em></h2>
+<p>A cor de fundo das operações no Editor de Tarefa indica se a operação é <strong>server-side</strong>, <strong>client-side</strong>, neutra ou desconhecida.</p>
+
+<table>
+  <thead>
+    <tr><th>Nome da Cor</th><th>Descrição</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>White</td>
+      <td>
+        • Operações <strong>Client-side</strong> que precisam ser executadas no lado do <strong>client</strong><br>
+        • Cabeçalhos de <em>handlers</em> que contêm operações no lado do <strong>client</strong><br>
+        • Operações neutras que aparecem após uma operação <strong>client-side</strong><br>
+        • Operações não suportadas, tais como operações mistas
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color:#fbb4d4;">Server</td>
+      <td>
+        • Operações <strong>Server-side</strong> que precisam ser executadas no lado do <strong>server</strong><br>
+        • Cabeçalhos de <em>handlers</em> que contêm operações no lado do <strong>server</strong><br>
+        • Operações neutras que aparecem após uma operação <strong>server-side</strong>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color:#e0ffe0;">Unknown</td>
+      <td>
+        • Operações de lado desconhecidas. Estas são operações nas quais o <em>Studio</em> não consegue identificar se serão executadas no lado do <strong>server</strong> ou <strong>client</strong>.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Linhas neutras terão as mesmas cores da linha acima delas, pois elas serão executadas em qualquer lado que esteja fazendo o processamento.</p>
+<br>

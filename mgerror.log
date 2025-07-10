@@ -643,3 +643,16 @@
  <161960382747497504> 09/07/2025 17:13:55.533     [Error  ] - EndTaskRequest(): Unable to open the Data Source: Products : All Products cannot start a transaction within a transaction : "RunMe" ("GettingStarted")  (msgid "319"), Program: "Main Program".
  <439900559649369984> 09/07/2025 17:14:13.492     [Error  ] - Unable to begin transaction. Data Source: Products  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Import - Products".
  <87912567440702736> 09/07/2025 17:16:09.593     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\ONY PSP console.jpg" not found., Program: "Main Program".
+ <-1> 10/07/2025 09:17:56.246     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 10/07/2025 09:18:16.001     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <12964787385044466> 10/07/2025 09:43:59.511     [Error  ] - Aborting context 12964787385044466, Program: "Main Program".
+ <119088538699380320> 10/07/2025 09:50:37.742     [Error  ] - Aborting context 119088538699380320, Program: "Main Program".
+ <236664131601218752> 10/07/2025 09:50:37.746     [Error  ] - Aborting context 236664131601218752, Program: "Main Program".
+ <202718290279536416> 10/07/2025 12:02:35.415     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <202718290279536416> 10/07/2025 12:03:00.528     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <202718290279536416> 10/07/2025 12:04:31.835     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <148953741420912416> 10/07/2025 14:05:27.245     [Error  ] - Aborting context 148953741420912416, Program: "Main Program".
+ <129791573897886336> 10/07/2025 14:22:47.504     [Error  ] - Aborting context 129791573897886336, Program: "Main Program".
+ <106248888088711616> 10/07/2025 15:03:01.048     [Error  ] - Aborting context 106248888088711616, Program: "Main Program".
+ <55165538841799208> 10/07/2025 15:09:26.807     [Error  ] - Aborting context 55165538841799208, Program: "Main Program".
+ <280819437833391296> 10/07/2025 15:39:19.780     [Error  ] - Aborting context 280819437833391296, Program: "Main Program".
