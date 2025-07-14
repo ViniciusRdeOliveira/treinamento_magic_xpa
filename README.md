@@ -591,5 +591,5 @@ Stat( FileName, StatType )</li><br>
 <li>A opção <b>Action Bar Menu</b> irá fixar menus no mobile ao lado do menu sanduiche.</li>
 <li>Para um programa online chamar um programa offline, deve-se utilizar um evento no Main Programam que faça o download dos dados do servidor para a execução offline.</li>
 <li>Contato:<br>
-+551130480700<br>
+(11) 30480700<br>
 contato@magicsoftware.com.br</li>
