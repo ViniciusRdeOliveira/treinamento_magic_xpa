@@ -149,15 +149,93 @@
 <li><b>LoopCounter()</b> é uma função que retorna  o número de  interações.</li>
 <li>A função <b>len</b> traz o tamanho de um caractere (lenght)</li>
 <li>A função <b>CndRange</b> é utilizada para verificar se um valor está dentro de um intervalo definido de valores. É comumente usada em expressões condicionais, especialmente para simplificar verificações de múltiplos valores.</li>
-<li>A função Mid no Magic xpa é usada para extrair uma substring (parte de uma string) a partir de uma posição específica, com um tamanho definido.<br>
-Mid(string, start, length)<br>
-Mid('123.456.789-00', 5, 3) -> Retorna: '456'<br>
-Mid('Vinicius', 1, 3) -> Retorna: 'Vin'<br>
-<>A função <b>Stat</b> é usada para obter estatísticas sobre um arquivo, como se ele existe, seu tamanho, data de modificação etc.<br>
-Stat( FileName, StatType )<br>
+<li>A função Mid no Magic xpa é usada para extrair uma substring (parte de uma string) a partir de uma posição específica, com um tamanho definido.<br><br>
+Mid(string, start, length)<br><br>
+Mid('123.456.789-00', 5, 3) -> Retorna: '456'<br><br>
+Mid('Vinicius', 1, 3) -> Retorna: 'Vin'<br><br>
+<li>A função <b>Stat</b> é usada para obter estatísticas sobre um arquivo, como se ele existe, seu tamanho, data de modificação etc.<br>
+Stat( FileName, StatType )</li><br>
 
-<b>FileName:</b> caminho completo (ou relativo) do arquivo.<br>
-<b>StatType:</b> número que indica o tipo de informação desejada.<br>
+<b>FileName:</b> caminho completo (ou relativo) do arquivo.<br><br>
+<b>StatType:</b> número que indica o tipo de informação desejada.<br><br>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Nome Lógico</strong></th>
+      <th><strong>Exemplo de Caminho / Valor Retornado</strong></th>
+      <th><strong>Descrição / Função</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>%WorkingDir%</td>
+      <td>C:\MeusApps\AppX</td>
+      <td>Diretório onde a aplicação está sendo executada. Usado para localizar arquivos locais no contexto do usuário.</td>
+    </tr>
+    <tr>
+      <td>%EngineDir%</td>
+      <td>C:\Magicxpa\Runtime</td>
+      <td>Diretório de onde a engine Magic está rodando. Útil para localizar DLLs e arquivos essenciais.</td>
+    </tr>
+    <tr>
+      <td>%TempDir%</td>
+      <td>C:\Users\Vinicius\AppData\Local\Temp</td>
+      <td>Diretório temporário da aplicação em tempo de execução.</td>
+    </tr>
+    <tr>
+      <td>%ProgramData%</td>
+      <td>C:\ProgramData\Magic Software</td>
+      <td>Armazena dados compartilhados da aplicação, especialmente em ambientes multiusuário.</td>
+    </tr>
+    <tr>
+      <td>%LocalAppData%</td>
+      <td>C:\Users\Vinicius\AppData\Local</td>
+      <td>Diretório para cache e dados locais do usuário que não são sincronizados.</td>
+    </tr>
+    <tr>
+      <td>%AppData%</td>
+      <td>C:\Users\Vinicius\AppData\Roaming</td>
+      <td>Diretório de dados do usuário com possibilidade de roaming (sincronização).</td>
+    </tr>
+    <tr>
+      <td>%UserProfile%</td>
+      <td>C:\Users\Vinicius</td>
+      <td>Diretório base do perfil do usuário logado.</td>
+    </tr>
+    <tr>
+      <td>%MagicEnvDir%</td>
+      <td>(depende do ambiente)</td>
+      <td>Diretório de definição do ambiente Magic (arquivo .edp).</td>
+    </tr>
+    <tr>
+      <td>%MainProgDir%</td>
+      <td>(depende do programa principal)</td>
+      <td>Diretório onde está o programa principal da aplicação em execução.</td>
+    </tr>
+    <tr>
+      <td>%ResourceDir%</td>
+      <td>(configurado no projeto)</td>
+      <td>Diretório de recursos (imagens, ícones, etc).</td>
+    </tr>
+    <tr>
+      <td>%RIAModulesDir%</td>
+      <td>(configurado para uso Rich Client)</td>
+      <td>Diretório onde os módulos RIA são armazenados localmente.</td>
+    </tr>
+    <tr>
+      <td>%GigaInitDir%</td>
+      <td>C:\Magicxpa\Init</td>
+      <td>Diretório de inicialização e configuração do Magic (ex: magic.ini).</td>
+    </tr>
+    <tr>
+      <td>%ProgramFiles%</td>
+      <td>C:\Program Files\Magic Software</td>
+      <td>Diretório padrão de instalação em sistemas Windows.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
 <table>
   <thead>
     <tr>
@@ -508,6 +586,10 @@ Stat( FileName, StatType )<br>
 </table>
 <br>
 <li>Todo programa Magic XPA tem como requerido ao menos uma variável criada (por mais que não seja usada, ela deve estar criada no Data View)</li>
-<li><b>Falando sobre menus:</b> Quando pensado em usar no sistema windows, o menu deve ser vinculado a opção pulldown menu. Quando pensado em utilizar pelo mobile, deve-se utilizar a opção Navigation Drawer.A opção de Navigation Drawer irá exibir em tela o menu sanduiche.</li>
+<li><b>Falando sobre menus:</b> Quando pensado em usar no sistema windows, o menu deve ser vinculado a opção pulldown menu. Quando pensado em utilizar pelo mobile, deve-se utilizar a opção Navigation Drawer. A opção de Navigation Drawer irá exibir em tela o menu sanduiche.</li>
 <li>Opções de Context Menu continuam iguais tanto Mobile quanto Desktop.</li>
 <li>A opção <b>Action Bar Menu</b> irá fixar menus no mobile ao lado do menu sanduiche.</li>
+<li>Para um programa online chamar um programa offline, deve-se utilizar um evento no Main Programam que faça o download dos dados do servidor para a execução offline.</li>
+<li>Contato:<br>
++551130480700<br>
+contato@magicsoftware.com.br</li>
