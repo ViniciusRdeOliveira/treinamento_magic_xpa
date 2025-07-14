@@ -13,35 +13,33 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Display PDF" ISN_2="1" LastIsn="1" id="34">
-          <LastModified _date="739443" _time="34921" date="11/07/2025" time="09:42:01"/>
+        <Header Description=">>>>Inicial" ISN_2="1" LastIsn="2" id="32">
+          <LastModified _date="739446" _time="32793" date="14/07/2025" time="09:06:33"/>
+          <Public val="RunMe"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
             <ReturnValueAttr/>
-            <TSK_PARAMS val="1"/>
-            <ParametersAttributes>
-              <Attr MgAttr="A"/>
-            </ParametersAttributes>
+            <ParametersAttributes/>
           </ReturnValue>
           <SqlWhereExist val="N"/>
           <TaskType val="C"/>
           <Interactive val="Y"/>
-          <External val="N"/>
+          <External val="Y"/>
           <Offline val="N"/>
-          <FormType val="D"/>
+          <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>
         <ItemIsn val="1"/>
         <Resource>
           <Columns>
-            <Column id="1" name="PDF to display">
+            <Column id="1" name="padraao">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="255"/>
+                <Picture id="157" valUnicode="1"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="255"/>
+                <Size id="174" val="1"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -58,7 +56,7 @@
           <ForceRecordDelete DEL="N"/>
           <EndTaskCondition val="N"/>
           <EvaluateEndCondition val="B"/>
-          <InitialMode val="M"/>
+          <InitialMode val="E"/>
           <Locate Direction="A"/>
           <Range Direction="A"/>
           <VarRange/>
@@ -84,7 +82,7 @@
             <AllowDelete val="Y"/>
             <AllowLocate val="Y"/>
             <AllowRange val="Y"/>
-            <AllowIndexChange val="N"/>
+            <AllowIndexChange val="Y"/>
             <AllowSorting val="Y"/>
             <AllowIOFiles val="N"/>
             <TabbingCycle val="R"/>
@@ -105,7 +103,7 @@
           </BOX>
         </Information>
         <TaskLogic>
-          <LogicUnit id="2" propagate="78">
+          <LogicUnit id="1" propagate="78">
             <Level val="R"/>
             <Type val="M"/>
             <Scope val="S"/>
@@ -118,21 +116,18 @@
             <ExecuteOn_ val="O"/>
             <LogicLines>
               <LogicLine>
-                <DATAVIEW_SRC FlowIsn="2" Type="M">
+                <DATAVIEW_SRC FlowIsn="1" Type="M">
                   <Condition val="N"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="1" FlowIsn="3" id="1">
+                <Select FieldID="1" FlowIsn="15" id="1">
                   <Column val="1"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
-                  <IsParameter val="Y"/>
-                  <INT_DIT_INFO>
-                    <v>2</v>
-                  </INT_DIT_INFO>
+                  <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -143,53 +138,49 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="2" _last_test_id="3" id="1">
+          <FormEntry _last_isn="3" _last_test_id="3" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
-              <Model comp="-1" id="1" obj="20"/>
+              <Width id="23" val="327"/>
+              <MinimizeButton id="28"/>
+              <MaximizeButton id="29"/>
+              <ShowGrid id="37"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Display PDF"/>
+              <FormName id="311" valUnicode=">>>>Inicial"/>
+              <WindowType id="358" val="2"/>
+              <_PulldownMenu comp="-1" id="441" obj="2"/>
+              <_ContextMenu id="442"/>
+              <NavigationDrawerMenu comp="-1" id="662" obj="2"/>
+              <ActionBarMenu comp="-1" id="683" obj="3"/>
             </PropertyList>
-            <Control _test_id="3" id="1">
-              <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                <Model comp="-1" id="1" obj="21"/>
-                <Placement id="20" left="100"/>
-                <X id="21" val="288"/>
-                <Y id="22" val="4"/>
-                <Width id="23" val="12"/>
-                <Height id="24" val="10"/>
-                <ImageListFileName id="88" val="%WorkingDir%\images\Exit.png"/>
-                <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="14"/>
-                </RaiseEvent>
+            <Control _test_id="1" id="1">
+              <PropertyList model="CTRL_RICH_CLIENT_IMAGE">
+                <X id="21" val="45"/>
+                <Y id="22" val="14"/>
+                <Width id="23" val="203"/>
+                <Height id="24" val="98"/>
+                <StudioImageFile id="88" val="C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\images\ChatGPT Image 1 de mai. de 2025, 21_14_59.png"/>
+                <ImageStyle id="89" val="5"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
-            <Control _test_id="1" id="2">
-              <PropertyList model="CTRL_RICH_CLIENT_BROWSER">
-                <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="8"/>
-                <Y id="22" val="17"/>
-                <Width id="23" val="300"/>
-                <Height id="24" val="168"/>
-                <Data Exp="2" id="43"/>
-                <ControlName id="46" val="PDF to display"/>
-                <Attribute id="83" val="85"/>
-                <TabOrder id="314" val="2"/>
+            <Control _test_id="3" id="3">
+              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+                <Text id="19" valUnicode="Bem Vindo"/>
+                <X id="21" val="127"/>
+                <Y id="22" val="128"/>
+                <Width id="23" val="50"/>
+                <Height id="24" val="36"/>
+                <Font id="50" val="11"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="5"/>
+                <HorizontalAlignment id="65" val="2"/>
+                <_Orientation id="143"/>
+                <AllowDrop id="284"/>
+                <_ContextMenu comp="-1" id="442" obj="2"/>
               </PropertyList>
             </Control>
           </FormEntry>
         </TaskForms>
-        <Expressions>
-          <Expression id="1">
-            <ExpSyntax val="'pdf:'&amp;Trim({0,1})"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-          <Expression id="2">
-            <ExpSyntax val="'file:/'&amp;Trim({0,1})"/>
-            <ExpAttribute val="A"/>
-          </Expression>
-        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>

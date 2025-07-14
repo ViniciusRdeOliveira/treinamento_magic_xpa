@@ -14,8 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Customers - Line Mode" ISN_2="1" LastIsn="1" id="11">
-          <LastModified _date="739443" _time="49415" date="11/07/2025" time="13:43:35"/>
-          <Public val="RunMe"/>
+          <LastModified _date="739446" _time="29307" date="14/07/2025" time="08:08:27"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -26,7 +25,7 @@
           <SqlWhereExist val="N"/>
           <TaskType val="C"/>
           <Interactive val="Y"/>
-          <External val="Y"/>
+          <External val="N"/>
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
@@ -698,7 +697,7 @@
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="8">
-            <ExpSyntax val="'pdf'&amp;Trim({0,13})"/>
+            <ExpSyntax val="'pdf:'&amp;Trim({0,13})"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="9">

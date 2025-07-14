@@ -507,3 +507,7 @@ Stat( FileName, StatType )<br>
   </tbody>
 </table>
 <br>
+<li>Todo programa Magic XPA tem como requerido ao menos uma variável criada (por mais que não seja usada, ela deve estar criada no Data View)</li>
+<li><b>Falando sobre menus:</b> Quando pensado em usar no sistema windows, o menu deve ser vinculado a opção pulldown menu. Quando pensado em utilizar pelo mobile, deve-se utilizar a opção Navigation Drawer.A opção de Navigation Drawer irá exibir em tela o menu sanduiche.</li>
+<li>Opções de Context Menu continuam iguais tanto Mobile quanto Desktop.</li>
+<li>A opção <b>Action Bar Menu</b> irá fixar menus no mobile ao lado do menu sanduiche.</li>

@@ -242,6 +242,13 @@
         <HandlerIsn Val="5"/>
       </ExpandedItem>
     </Program>
+    <Program PrgIsn="36">
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="3"/>
+      </ExpandedItem>
+    </Program>
   </ExpandedItems>
 
   <VisitedTasks>
@@ -355,6 +362,22 @@
     </VisitedTask>
     <VisitedTask>
       <PrgIsn Val="31"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="32"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="32"/>
+      <TaskIsn Val="2"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="33"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="36"/>
       <TaskIsn Val="1"/>
     </VisitedTask>
   </VisitedTasks>
