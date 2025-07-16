@@ -678,3 +678,100 @@
  <55960043471945272> 14/07/2025 09:41:02.925     [Error  ] - Aborting context 55960043471945272, Program: "Main Program".
  <296858059246052352> 14/07/2025 09:41:02.927     [Error  ] - Aborting context 296858059246052352, Program: "Main Program".
  <347373452137117696> 14/07/2025 09:50:57.675     [Error  ] - Aborting context 347373452137117696, Program: "Main Program".
+ <216415827339531392> 14/07/2025 17:34:16.035     [Error  ] - EndTaskRequest(): Error: "Program not found" (-131) : "RunMe" ("GettingStarted")  (msgid "242")
+ <281720856922452224> 14/07/2025 17:36:00.221     [Error  ] - EndTaskRequest(): Error: "Program not found" (-131) : "RunMe" ("GettingStarted")  (msgid "245")
+ <450164603773087552> 14/07/2025 17:36:15.467     [Error  ] - EndTaskRequest(): Error: "Program not found" (-131) : "RunMe" ("GettingStarted")  (msgid "248")
+ <456813746864439360> 14/07/2025 17:36:27.949     [Error  ] - EndTaskRequest(): Error: "Program not found" (-131) : "RunMe" ("GettingStarted")  (msgid "251")
+ <254016200637099072> 15/07/2025 10:50:45.555     [Error  ] - Aborting context 254016200637099072, Program: "Main Program".
+ <309704333551383168> 15/07/2025 10:51:56.063     [Error  ] - Aborting context 309704333551383168, Program: "Main Program".
+ <150735875389179040> 15/07/2025 10:56:12.794     [Error  ] - Aborting context 150735875389179040, Program: "Main Program".
+ <199245538426667200> 15/07/2025 10:56:12.796     [Error  ] - Aborting context 199245538426667200, Program: "Main Program".
+ <436148016863327808> 15/07/2025 11:32:11.612     [Error  ] - File not found: : tel:, Program: ">>>>Inicial.Funções do Dispositivo".
+ <436148016863327808> 15/07/2025 11:32:23.195     [Error  ] - File not found: : tel:, Program: ">>>>Inicial.Funções do Dispositivo".
+ <566526554033464576> 15/07/2025 13:08:05.257     [Error  ] - File not found: : tel:+5551989433755, Program: ">>>>Inicial.Funções do Dispositivo".
+ <566526554033464576> 15/07/2025 13:08:28.080     [Error  ] - Aborting context 566526554033464576, Program: "Main Program".
+ <119739235047160048> 15/07/2025 13:17:36.701     [Error  ] - Aborting context 119739235047160048, Program: "Main Program".
+ <19400643709064636> 15/07/2025 13:18:33.544     [Error  ] - Aborting context 19400643709064636, Program: "Main Program".
+ <109236200944736336> 15/07/2025 13:23:51.519     [Error  ] - File not found: : tel:+5551989433755, Program: ">>>>Inicial.Funções do Dispositivo".
+ <530862077015053696> 15/07/2025 13:24:57.970     [Error  ] - File not found: : tel:+5551989433755, Program: ">>>>Inicial.Funções do Dispositivo".
+ <109236200944736336> 15/07/2025 13:28:25.174     [Error  ] - Aborting context 109236200944736336, Program: "Main Program".
+ <389898336271719872> 15/07/2025 13:37:12.680     [Error  ] - Aborting context 389898336271719872, Program: "Main Program".
+ <521385698661947136> 15/07/2025 13:37:12.684     [Error  ] - Aborting context 521385698661947136, Program: "Main Program".
+ <73690253792012448> 15/07/2025 13:40:45.623     [Error  ] - Aborting context 73690253792012448, Program: "Main Program".
+ <510811091651907264> 15/07/2025 13:40:45.626     [Error  ] - Aborting context 510811091651907264, Program: "Main Program".
+ <438507798161374080> 15/07/2025 13:46:21.318     [Error  ] - Aborting context 438507798161374080, Program: "Main Program".
+ <454457296118390144> 15/07/2025 13:58:14.277     [Error  ] - Aborting context 454457296118390144, Program: "Main Program".
+ <14881064638661100> 15/07/2025 14:19:42.711     [Error  ] - Aborting context 14881064638661100, Program: "Main Program".
+ <115293568162271152> 15/07/2025 14:19:42.717     [Error  ] - Aborting context 115293568162271152, Program: "Main Program".
+ <228859584463274528> 15/07/2025 14:19:42.721     [Error  ] - Aborting context 228859584463274528, Program: "Main Program".
+ <105986676119066880> 15/07/2025 14:32:21.421     [Error  ] - Aborting context 105986676119066880, Program: "Main Program".
+ <358990704689220608> 15/07/2025 14:38:49.132     [Error  ] - Aborting context 358990704689220608, Program: "Main Program".
+ <13013857582008338> 15/07/2025 15:32:36.798     [Error  ] - Aborting context 13013857582008338, Program: "Main Program".
+ <98433420779938768> 15/07/2025 15:33:27.853     [Error  ] - Aborting context 98433420779938768, Program: "Main Program".
+ <171135380257547616> 15/07/2025 15:35:15.213     [Error  ] - Aborting context 171135380257547616, Program: "Main Program".
+ <-1> 15/07/2025 15:35:54.426     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 15/07/2025 15:36:00.277     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <198963371259007360> 15/07/2025 15:48:02.323     [Error  ] - Aborting context 198963371259007360, Program: "Main Program".
+ <469455430444326848> 15/07/2025 15:54:44.236     [Error  ] - Aborting context 469455430444326848, Program: "Main Program".
+ <525355512399860608> 15/07/2025 16:03:20.684     [Error  ] - Aborting context 525355512399860608, Program: "Main Program".
+ <78731473062968464> 15/07/2025 16:07:33.076     [Error  ] - Aborting context 78731473062968464, Program: "Main Program".
+ <45146746467219312> 15/07/2025 16:19:42.761     [Error  ] - Aborting context 45146746467219312, Program: "Main Program".
+ <552388503256282496> 15/07/2025 16:21:51.497     [Error  ] - Aborting context 552388503256282496, Program: "Main Program".
+ <130845936640284928> 15/07/2025 16:28:49.923     [Error  ] - Aborting context 130845936640284928, Program: "Main Program".
+ <152196547594316352> 15/07/2025 16:37:37.383     [Error  ] - Aborting context 152196547594316352, Program: "Main Program".
+ <175145603516726912> 15/07/2025 16:44:26.412     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <248292875612904896> 15/07/2025 16:54:50.185     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <248292875612904896> 15/07/2025 16:54:52.307     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <248292875612904896> 15/07/2025 16:54:54.487     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <248292875612904896> 15/07/2025 16:54:57.117     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <524578243735249088> 15/07/2025 17:43:10.696     [Error  ] - EndTaskRequest(): Error: "Program is not set as External" (-261) : "RunMe" ("GettingStarted")  (msgid "332"), Program: "Main Program".
+ <303067469254844032> 15/07/2025 17:44:02.615     [Error  ] - Aborting context 303067469254844032, Program: "Main Program".
+ <212117438460114208> 15/07/2025 17:50:54.362     [Error  ] - Aborting context 212117438460114208, Program: "Main Program".
+ <91760251456626976> 16/07/2025 08:05:23.430     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <91760251456626976> 16/07/2025 08:05:53.738     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <63221799873498592> 16/07/2025 08:10:44.248     [Error  ] - Aborting context 63221799873498592, Program: "Main Program".
+ <158936614042763680> 16/07/2025 08:10:44.250     [Error  ] - Aborting context 158936614042763680, Program: "Main Program".
+ <238654504638202272> 16/07/2025 08:58:00.384     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <201837879858558976> 16/07/2025 09:10:56.497     [Error  ] - Aborting context 201837879858558976, Program: "Main Program".
+ <159501923455377824> 16/07/2025 09:37:49.548     [Error  ] - EndTaskRequest(): Error: "Program not found" (-131) : "RunMe" ("GettingStarted")  (msgid "320")
+ <576087253339642112> 16/07/2025 09:37:56.210     [Error  ] - EndTaskRequest(): Error: "Program not found" (-131) : "RunMe" ("GettingStarted")  (msgid "323")
+ <200180313584572544> 16/07/2025 09:38:30.619     [Error  ] - Aborting context 200180313584572544, Program: "Main Program".
+ <69049559989712968> 16/07/2025 10:15:17.951     [Error  ] - Aborting context 69049559989712968, Program: "Main Program".
+ <214846342185419328> 16/07/2025 10:43:13.616     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: ">>>>Inicial".
+ <214846342185419328> 16/07/2025 10:43:18.312     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: ">>>>Inicial".
+ <214846342185419328> 16/07/2025 10:43:20.389     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: ">>>>Inicial".
+ <214846342185419328> 16/07/2025 10:43:33.258     [Error  ] - Aborting context 214846342185419328, Program: "Main Program".
+ <3296073420250353> 16/07/2025 10:47:17.007     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: ">>>>Inicial".
+ <3296073420250353> 16/07/2025 10:47:20.364     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: ">>>>Inicial".
+ <3296073420250353> 16/07/2025 10:47:30.548     [Error  ] - Aborting context 3296073420250353, Program: "Main Program".
+ <105664238043281632> 16/07/2025 10:51:40.968     [Error  ] - EndTaskRequest(): Error: "Program is not set as External" (-261) : "RunMe" ("GettingStarted")  (msgid "510"), Program: "Main Program".
+ <275064525956926016> 16/07/2025 10:51:45.025     [Error  ] - EndTaskRequest(): Error: "Program is not set as External" (-261) : "RunMe" ("GettingStarted")  (msgid "513"), Program: "Main Program".
+ <414786105890423104> 16/07/2025 11:00:23.922     [Error  ] - Aborting context 414786105890423104, Program: "Main Program".
+ <387259669479727296> 16/07/2025 11:02:13.412     [Error  ] - Aborting context 387259669479727296, Program: "Main Program".
+ <12277714259593374> 16/07/2025 11:15:09.133     [Error  ] - Aborting context 12277714259593374, Program: "Main Program".
+ <375728335241541440> 16/07/2025 11:21:49.254     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Import - Customers".
+ <375728335241541440> 16/07/2025 11:21:49.355     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Import - Customers".
+ <375728335241541440> 16/07/2025 11:21:49.457     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Import - Customers".
+ <375728335241541440> 16/07/2025 11:21:49.559     [Error  ] - Duplicate Index, Data Source: Customers  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Import - Customers".
+ <116634670981357824> 16/07/2025 11:26:10.267     [Error  ] - Aborting context 116634670981357824, Program: "Main Program".
+ <151086879914823936> 16/07/2025 11:28:00.904     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <151086879914823936> 16/07/2025 11:28:28.845     [Error  ] - Aborting context 151086879914823936, Program: "Main Program".
+ <394143954224547584> 16/07/2025 11:31:17.145     [Error  ] - "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\products\.jpg" not found., Program: "Main Program".
+ <394143954224547584> 16/07/2025 11:31:31.182     [Error  ] - Duplicate Index, Data Source: Order_Lines  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Orders - Line".
+ <394143954224547584> 16/07/2025 11:31:56.921     [Error  ] - Duplicate Index, Data Source: Order_Lines  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Orders - Line".
+ <394143954224547584> 16/07/2025 11:32:00.232     [Error  ] - Duplicate Index, Data Source: Order_Lines  >> Application: "C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\", Program: "Orders - Line".
+ <394143954224547584> 16/07/2025 11:32:07.447     [Error  ] - Aborting context 394143954224547584, Program: "Main Program".
+ <545679452305895040> 16/07/2025 11:46:49.815     [Error  ] - Aborting context 545679452305895040, Program: "Main Program".
+ <340953093845571776> 16/07/2025 11:51:38.821     [Error  ] - Aborting context 340953093845571776, Program: "Main Program".
+ <439445135121223872> 16/07/2025 13:15:33.274     [Error  ] - Aborting context 439445135121223872, Program: "Main Program".
+ <312553715821381120> 16/07/2025 13:19:28.865     [Error  ] - Aborting context 312553715821381120, Program: "Main Program".
+ <8480411212232229> 16/07/2025 13:20:50.507     [Error  ] - Aborting context 8480411212232229, Program: "Main Program".
+ <180680639832249792> 16/07/2025 13:59:03.179     [Error  ] - Aborting context 180680639832249792, Program: "Main Program".
+ <28249301496770216> 16/07/2025 15:25:19.737     [Error  ] - File not found: : tel:+5551989433755, Program: "Funções do Dispositivo".
+ <424700991756931712> 16/07/2025 15:25:52.586     [Error  ] - File not found: : tel:+5551989433755, Program: "Funções do Dispositivo".
+ <424700991756931712> 16/07/2025 15:26:03.156     [Error  ] - Aborting context 424700991756931712, Program: "Main Program".
+ <337305376941598464> 16/07/2025 15:28:24.164     [Error  ] - Aborting context 337305376941598464, Program: "Main Program".
+ <87499222348162944> 16/07/2025 15:29:01.301     [Error  ] - File not found: : tel: +5551989433755, Program: "Funções do Dispositivo".
+ <367097329570054528> 16/07/2025 15:31:42.169     [Error  ] - Aborting context 367097329570054528, Program: "Main Program".
+ <569955235368662400> 16/07/2025 15:36:13.394     [Error  ] - Aborting context 569955235368662400, Program: "Main Program".
+ <570117245095111744> 16/07/2025 15:37:25.292     [Error  ] - Aborting context 570117245095111744, Program: "Main Program".

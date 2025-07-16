@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Orders" ISN_2="1" LastIsn="4" id="14">
-          <LastModified _date="739442" _time="59306" date="10/07/2025" time="16:28:26"/>
+          <LastModified _date="739448" _time="42663" date="16/07/2025" time="11:51:03"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -245,6 +245,7 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="5" FlowIsn="7" id="5">
+                  <ASS val="8"/>
                   <Column val="5"/>
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
@@ -617,7 +618,12 @@
                 <Width id="23" val="111"/>
                 <Height id="24" val="11"/>
                 <Data FieldID="5" id="43"/>
+                <ItemsList id="45" valUnicode="1,2,3,4"/>
                 <ControlName id="46" val="Method_Of_Payment"/>
+                <Font id="50" val="6"/>
+                <Color id="51" val="3"/>
+                <_Style id="63" val="1"/>
+                <DisplayList id="303" valUnicode="Cash,Check,Credit Card,Coupons"/>
                 <TabOrder id="314" val="9"/>
               </PropertyList>
             </Control>
@@ -669,6 +675,10 @@
             <ExpSyntax val="NOT Stat(0,'E'MODE)"/>
             <ExpAttribute val="B"/>
           </Expression>
+          <Expression id="8">
+            <ExpSyntax val="'1'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
         </Expressions>
         <EVNT DESC="SelectCustomers" FORCE_EXIT="E" id="1">
           <Event>
@@ -677,8 +687,8 @@
         </EVNT>
         <VarRangeInfo Mode="E" VarRangeVeeIsn="1" id="1"/>
         <Task MainProgram="N">
-          <Header Description="Order Lines" ISN_2="2" LastIsn="3" id="14">
-            <LastModified _date="739442" _time="50639" date="10/07/2025" time="14:03:59"/>
+          <Header Description="Order Lines" ISN_2="2" LastIsn="4" id="14">
+            <LastModified _date="739448" _time="41418" date="16/07/2025" time="11:30:18"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -1016,6 +1026,18 @@
                     <Direction val="C"/>
                   </CallTask>
                 </LogicLine>
+                <LogicLine>
+                  <RaiseEvent FlowIsn="33">
+                    <Event>
+                      <EventType val="I"/>
+                      <InternalEventID val="295"/>
+                    </Event>
+                    <Wait val="78"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </RaiseEvent>
+                </LogicLine>
               </LogicLines>
             </LogicUnit>
             <LogicUnit id="4" propagate="78">
@@ -1052,6 +1074,18 @@
                     <Modifier val="B"/>
                     <Direction val="C"/>
                   </CallTask>
+                </LogicLine>
+                <LogicLine>
+                  <RaiseEvent FlowIsn="34">
+                    <Event>
+                      <EventType val="I"/>
+                      <InternalEventID val="295"/>
+                    </Event>
+                    <Wait val="78"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </RaiseEvent>
                 </LogicLine>
               </LogicLines>
             </LogicUnit>
@@ -1283,7 +1317,7 @@
           </EVNT>
           <VarRangeInfo Mode="E" VarRangeVeeIsn="1" id="1"/>
           <Task MainProgram="N">
-            <Header Description="Add/Edit Lines" ISN_2="3" LastIsn="3" id="14">
+            <Header Description="Add/Edit Lines" ISN_2="3" LastIsn="4" id="14">
               <LastModified _date="739442" _time="50558" date="10/07/2025" time="14:02:38"/>
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
@@ -1926,7 +1960,7 @@
           </Task>
         </Task>
         <Task MainProgram="N">
-          <Header Description="Delete Itens" ISN_2="4" id="14">
+          <Header Description="Delete Itens" ISN_2="4" LastIsn="4" id="14">
             <LastModified _date="739442" _time="59239" date="10/07/2025" time="16:27:19"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>

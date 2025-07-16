@@ -4,7 +4,7 @@
   <Header>
     <Version val="14100.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="3"/>
+    <LastIsn val="4"/>
   </Header>
 
   <MenusRepository>
@@ -641,7 +641,7 @@
       <Menu>
         <ToolNumber val="2"/>
         <Name val="Menu Principal"/>
-        <LastIsn val="7"/>
+        <LastIsn val="10"/>
         <MenuEntry id="2">
           <MenuType val="2"/>
           <Name val="Customers"/>
@@ -649,7 +649,7 @@
           <Right comp="-1"/>
           <Help comp="-1"/>
           <Prompt comp="-1"/>
-          <Program ObjIsn="8" comp="-1" obj="8"/>
+          <Program ObjIsn="11" comp="-1" obj="11"/>
           <SourceContext val="67"/>
         </MenuEntry>
         <MenuEntry id="5">
@@ -658,11 +658,11 @@
         <MenuEntry id="3">
           <MenuType val="2"/>
           <Name val="Orders"/>
-          <Description_U val="Orders"/>
+          <Description_U val="Orders - Line"/>
           <Right comp="-1"/>
           <Help comp="-1"/>
           <Prompt comp="-1"/>
-          <Program ObjIsn="14" comp="-1" obj="14"/>
+          <Program ObjIsn="15" comp="-1" obj="15"/>
           <SourceContext val="67"/>
         </MenuEntry>
         <MenuEntry id="6">
@@ -678,15 +678,39 @@
           <Program ObjIsn="28" comp="-1" obj="28"/>
           <SourceContext val="67"/>
         </MenuEntry>
-        <MenuEntry id="7">
-          <MenuType val="4"/>
-          <Name val="cmd"/>
-          <Description_U val="cmd"/>
+        <MenuEntry id="9">
+          <MenuType val="5"/>
+        </MenuEntry>
+        <MenuEntry id="10">
+          <MenuType val="2"/>
+          <Name val="Suppliers List"/>
+          <Description_U val="Suppliers List"/>
           <Right comp="-1"/>
           <Help comp="-1"/>
           <Prompt comp="-1"/>
-          <Wait val="N"/>
-          <Show val="2"/>
+          <Program ObjIsn="13" comp="-1" obj="13"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="8">
+          <MenuType val="1"/>
+          <Description_U val="Mais Opções"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="2"/>
+            <MenuEntry id="2">
+              <MenuType val="2"/>
+              <Name val="Funções Dispositivo"/>
+              <Description_U val="Funções Dispositivo"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="36" comp="-1" obj="36"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+          </Menu>
         </MenuEntry>
       </Menu>
       <Menu>
@@ -700,6 +724,110 @@
           <Help comp="-1"/>
           <Prompt comp="-1"/>
           <Program ObjIsn="36" comp="-1" obj="36"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+      </Menu>
+      <Menu>
+        <ToolNumber val="4"/>
+        <Name val="Context Menu"/>
+        <LastIsn val="12"/>
+        <MenuEntry id="2">
+          <MenuType val="2"/>
+          <Description_U val="Customers"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="8" comp="-1" obj="8"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="3">
+          <MenuType val="2"/>
+          <Description_U val="Customers - Screen Mode"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="9" comp="-1" obj="9"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="4">
+          <MenuType val="2"/>
+          <Description_U val="Customers - Line Mode (tabela)"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="11" comp="-1" obj="11"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="5">
+          <MenuType val="2"/>
+          <Description_U val="Suppliers - Line Mode (tabela)"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="13" comp="-1" obj="13"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="6">
+          <MenuType val="2"/>
+          <Description_U val="Orders"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="14" comp="-1" obj="14"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="7">
+          <MenuType val="2"/>
+          <Description_U val="Orders - Line"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="15" comp="-1" obj="15"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="8">
+          <MenuType val="2"/>
+          <Description_U val="Products"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="22" comp="-1" obj="22"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="9">
+          <MenuType val="2"/>
+          <Description_U val="All Products"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="23" comp="-1" obj="23"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="10">
+          <MenuType val="2"/>
+          <Description_U val="Select Customers"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="24" comp="-1" obj="24"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="11">
+          <MenuType val="2"/>
+          <Description_U val="Countries"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="28" comp="-1" obj="28"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="12">
+          <MenuType val="2"/>
+          <Description_U val="Print - Customers"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="31" comp="-1" obj="31"/>
           <SourceContext val="67"/>
         </MenuEntry>
       </Menu>

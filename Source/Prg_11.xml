@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Customers - Line Mode" ISN_2="1" LastIsn="1" id="11">
-          <LastModified _date="739446" _time="29307" date="14/07/2025" time="08:08:27"/>
+        <Header Description="Customers - Line Mode (tabela)" ISN_2="1" LastIsn="1" id="11">
+          <LastModified _date="739448" _time="38099" date="16/07/2025" time="10:34:59"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -503,6 +503,18 @@
                   <Direction val="C"/>
                 </CallTask>
               </LogicLine>
+              <LogicLine>
+                <RaiseEvent FlowIsn="39">
+                  <Event>
+                    <EventType val="I"/>
+                    <InternalEventID val="295"/>
+                  </Event>
+                  <Wait val="78"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </RaiseEvent>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
@@ -513,7 +525,7 @@
               <Height id="24" val="220"/>
               <Wallpaper id="42" val="C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\env\Wallpaper.jpg"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Customers - Line Mode"/>
+              <FormName id="311" valUnicode="Customers - Line Mode (tabela)"/>
               <WallpaperStyle id="448" val="5"/>
             </PropertyList>
             <Control _test_id="24" id="24">

@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Customers - Screen Mode" ISN_2="1" LastIsn="1" id="9">
-          <LastModified _date="739441" _time="35872" date="09/07/2025" time="09:57:52"/>
+          <LastModified _date="739448" _time="40459" date="16/07/2025" time="11:14:19"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -171,7 +171,7 @@
                   <ExposedToRoute val="N"/>
                   <IsParameter val="Y"/>
                   <INT_DIT_INFO>
-                    <v>26</v>
+                    <v>36</v>
                   </INT_DIT_INFO>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="Y"/>
@@ -239,7 +239,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="8"/>
+                  <_DitIndexForToolkit val="7"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -388,6 +388,18 @@
                   <Direction val="C"/>
                 </Update>
               </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="101">
+                  <Type val="2"/>
+                  <Text val="Pode-se ter mais de um handler para o mesmo evento. Para que um evento seja executado após o outro"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="102">
+                  <Type val="2"/>
+                  <Text val="habilite a propriedade Propagate = Yes"/>
+                </Remark>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
           <LogicUnit id="5" propagate="89">
@@ -475,6 +487,21 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </RaiseEvent>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="158">
+                  <Type val="2"/>
+                  <Text val="Não é necessario Verify abaixo pois o evento já possui algo semelhante ao executar"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="132" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Registro Deletado" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Disabled val="1"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -710,12 +737,43 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="11" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="3"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="100">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="11"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="26" _last_test_id="26" id="1">
+          <FormEntry _last_isn="36" _last_test_id="36" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
               <Width id="23" val="263"/>
-              <Height id="24" val="302"/>
+              <Height id="24" val="317"/>
               <Wallpaper id="42" val="C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\env\Wallpaper.jpg"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Customers - Screen Mode"/>
@@ -725,7 +783,7 @@
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Model comp="-1" id="1" obj="4"/>
                 <Text id="19" valUnicode="Customer_Code"/>
-                <X id="21" val="18"/>
+                <X id="21" val="21"/>
                 <Y id="22" val="11"/>
                 <Width id="23" val="75"/>
                 <Height id="24" val="9"/>
@@ -736,7 +794,7 @@
             <Control PDOD="1" _test_id="23" id="23">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model comp="-1" id="1" obj="5"/>
-                <X id="21" val="115"/>
+                <X id="21" val="119"/>
                 <Y id="22" val="11"/>
                 <Width id="23" val="46"/>
                 <Height id="24" val="12"/>
@@ -749,7 +807,7 @@
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Model comp="-1" id="1" obj="4"/>
                 <Text id="19" valUnicode="Customer_Name"/>
-                <X id="21" val="18"/>
+                <X id="21" val="21"/>
                 <Y id="22" val="36"/>
                 <Width id="23" val="77"/>
                 <Height id="24" val="9"/>
@@ -760,20 +818,20 @@
             <Control _test_id="3" id="3">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model comp="-1" id="1" obj="5"/>
-                <X id="21" val="115"/>
+                <X id="21" val="119"/>
                 <Y id="22" val="36"/>
                 <Width id="23" val="111"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="Customer_Name_0001"/>
-                <TabOrder id="314" val="3"/>
+                <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
             <Control _test_id="6" id="6">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Model comp="-1" id="1" obj="4"/>
                 <Text id="19" valUnicode="Country"/>
-                <X id="21" val="18"/>
+                <X id="21" val="21"/>
                 <Y id="22" val="59"/>
                 <Width id="23" val="36"/>
                 <Height id="24" val="9"/>
@@ -784,12 +842,24 @@
             <Control _test_id="5" id="5">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model comp="-1" id="1" obj="5"/>
-                <X id="21" val="115"/>
+                <X id="21" val="119"/>
                 <Y id="22" val="59"/>
                 <Width id="23" val="111"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="Country"/>
+                <TabOrder id="314" val="3"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="7" id="7">
+              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+                <Model comp="-1" id="1" obj="5"/>
+                <X id="21" val="119"/>
+                <Y id="22" val="82"/>
+                <Width id="23" val="111"/>
+                <Height id="24" val="12"/>
+                <Data FieldID="3" id="43"/>
+                <ControlName id="46" val="City"/>
                 <TabOrder id="314" val="4"/>
               </PropertyList>
             </Control>
@@ -797,7 +867,7 @@
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Model comp="-1" id="1" obj="4"/>
                 <Text id="19" valUnicode="City"/>
-                <X id="21" val="18"/>
+                <X id="21" val="21"/>
                 <Y id="22" val="85"/>
                 <Width id="23" val="19"/>
                 <Height id="24" val="9"/>
@@ -805,23 +875,11 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control _test_id="7" id="7">
-              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                <Model comp="-1" id="1" obj="5"/>
-                <X id="21" val="115"/>
-                <Y id="22" val="85"/>
-                <Width id="23" val="111"/>
-                <Height id="24" val="12"/>
-                <Data FieldID="3" id="43"/>
-                <ControlName id="46" val="City"/>
-                <TabOrder id="314" val="5"/>
-              </PropertyList>
-            </Control>
             <Control _test_id="12" id="12">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Model comp="-1" id="1" obj="4"/>
                 <Text id="19" valUnicode="Address"/>
-                <X id="21" val="18"/>
+                <X id="21" val="21"/>
                 <Y id="22" val="107"/>
                 <Width id="23" val="40"/>
                 <Height id="24" val="9"/>
@@ -832,45 +890,45 @@
             <Control _test_id="11" id="11">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model comp="-1" id="1" obj="5"/>
-                <X id="21" val="115"/>
+                <X id="21" val="119"/>
                 <Y id="22" val="107"/>
                 <Width id="23" val="111"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="Address"/>
-                <TabOrder id="314" val="6"/>
+                <TabOrder id="314" val="5"/>
               </PropertyList>
             </Control>
-            <Control _test_id="10" id="10">
+            <Control _test_id="35" id="35">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Model comp="-1" id="1" obj="4"/>
                 <Text id="19" valUnicode="Gold_Membership"/>
-                <X id="21" val="18"/>
+                <X id="21" val="21"/>
                 <Y id="22" val="131"/>
-                <Width id="23" val="85"/>
+                <Width id="23" val="75"/>
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control PDOD="192" _test_id="9" id="9">
+            <Control PDOD="192" _test_id="34" id="34">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model comp="-1" id="1" obj="5"/>
-                <X id="21" val="115"/>
+                <X id="21" val="119"/>
                 <Y id="22" val="131"/>
                 <Width id="23" val="31"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="5" id="43"/>
                 <ControlName id="46" val="Gold_Membership"/>
-                <TabOrder id="314" val="7"/>
+                <TabOrder id="314" val="6"/>
               </PropertyList>
             </Control>
             <Control _test_id="14" id="14">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Model comp="-1" id="1" obj="4"/>
                 <Text id="19" valUnicode="Membership_Date"/>
-                <X id="21" val="18"/>
-                <Y id="22" val="149"/>
+                <X id="21" val="21"/>
+                <Y id="22" val="155"/>
                 <Width id="23" val="85"/>
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
@@ -880,21 +938,21 @@
             <Control PDOD="128" _test_id="13" id="13">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model comp="-1" id="1" obj="5"/>
-                <X id="21" val="115"/>
-                <Y id="22" val="149"/>
+                <X id="21" val="119"/>
+                <Y id="22" val="155"/>
                 <Width id="23" val="61"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="6" id="43"/>
                 <ControlName id="46" val="Membership_Date"/>
-                <TabOrder id="314" val="8"/>
+                <TabOrder id="314" val="7"/>
               </PropertyList>
             </Control>
             <Control _test_id="16" id="16">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Model comp="-1" id="1" obj="4"/>
                 <Text id="19" valUnicode="Membership_Time"/>
-                <X id="21" val="18"/>
-                <Y id="22" val="171"/>
+                <X id="21" val="21"/>
+                <Y id="22" val="177"/>
                 <Width id="23" val="87"/>
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
@@ -904,21 +962,21 @@
             <Control PDOD="128" _test_id="15" id="15">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model comp="-1" id="1" obj="5"/>
-                <X id="21" val="115"/>
-                <Y id="22" val="171"/>
+                <X id="21" val="119"/>
+                <Y id="22" val="177"/>
                 <Width id="23" val="48"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="8" id="43"/>
                 <ControlName id="46" val="Membership_Time"/>
-                <TabOrder id="314" val="9"/>
+                <TabOrder id="314" val="8"/>
               </PropertyList>
             </Control>
             <Control _test_id="18" id="18">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Model comp="-1" id="1" obj="4"/>
                 <Text id="19" valUnicode="Salary_Amount"/>
-                <X id="21" val="18"/>
-                <Y id="22" val="195"/>
+                <X id="21" val="21"/>
+                <Y id="22" val="201"/>
                 <Width id="23" val="71"/>
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
@@ -928,21 +986,21 @@
             <Control PDOD="19" _test_id="17" id="17">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model comp="-1" id="1" obj="5"/>
-                <X id="21" val="115"/>
-                <Y id="22" val="195"/>
+                <X id="21" val="119"/>
+                <Y id="22" val="201"/>
                 <Width id="23" val="88"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="9" id="43"/>
                 <ControlName id="46" val="Salary_Amount"/>
-                <TabOrder id="314" val="10"/>
+                <TabOrder id="314" val="9"/>
               </PropertyList>
             </Control>
             <Control _test_id="20" id="20">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Model comp="-1" id="1" obj="4"/>
                 <Text id="19" valUnicode="Credit_Amount"/>
-                <X id="21" val="18"/>
-                <Y id="22" val="217"/>
+                <X id="21" val="21"/>
+                <Y id="22" val="223"/>
                 <Width id="23" val="68"/>
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
@@ -952,51 +1010,20 @@
             <Control PDOD="19" _test_id="19" id="19">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model comp="-1" id="1" obj="5"/>
-                <X id="21" val="115"/>
-                <Y id="22" val="217"/>
+                <X id="21" val="119"/>
+                <Y id="22" val="223"/>
                 <Width id="23" val="88"/>
                 <Height id="24" val="12"/>
                 <Data FieldID="10" id="43"/>
                 <ControlName id="46" val="Credit_Amount"/>
-                <TabOrder id="314" val="11"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="26" id="26">
-              <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                <X id="21" val="216"/>
-                <Y id="22" val="11"/>
-                <Width id="23" val="10"/>
-                <Height id="24" val="8"/>
-                <Color id="51" val="5"/>
-                <Visible Exp="7" id="61"/>
-                <Format id="82"/>
-                <ImageListFileName id="88" val="C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\images\Delete.png"/>
-                <ButtonStyle id="96" val="2"/>
-                <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="36"/>
-                </RaiseEvent>
-                <TabOrder id="314" val="2"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="128" _test_id="25" id="25">
-              <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                <X id="21" val="54"/>
-                <Y id="22" val="252"/>
-                <Width id="23" val="83"/>
-                <Height id="24" val="14"/>
-                <Format id="82" valUnicode="Set Date and Time"/>
-                <RaiseEvent id="234">
-                  <EventType val="U"/>
-                  <PublicObject comp="-1" obj="2"/>
-                </RaiseEvent>
-                <TabOrder id="314" val="12"/>
+                <TabOrder id="314" val="10"/>
               </PropertyList>
             </Control>
             <Control _test_id="22" id="22">
               <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                <X id="21" val="167"/>
-                <Y id="22" val="255"/>
+                <Placement id="20"/>
+                <X id="21" val="89"/>
+                <Y id="22" val="248"/>
                 <Width id="23" val="10"/>
                 <Height id="24" val="8"/>
                 <Color id="51" val="5"/>
@@ -1007,13 +1034,14 @@
                   <EventType val="I"/>
                   <InternalEventID val="64"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="13"/>
+                <TabOrder id="314" val="11"/>
               </PropertyList>
             </Control>
             <Control _test_id="21" id="21">
               <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                <X id="21" val="197"/>
-                <Y id="22" val="255"/>
+                <Placement id="20"/>
+                <X id="21" val="119"/>
+                <Y id="22" val="248"/>
                 <Width id="23" val="11"/>
                 <Height id="24" val="8"/>
                 <Color id="51" val="5"/>
@@ -1024,7 +1052,56 @@
                   <EventType val="I"/>
                   <InternalEventID val="65"/>
                 </RaiseEvent>
+                <TabOrder id="314" val="12"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="36" id="36">
+              <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+                <Placement id="20"/>
+                <X id="21" val="150"/>
+                <Y id="22" val="248"/>
+                <Width id="23" val="11"/>
+                <Height id="24" val="8"/>
+                <Color id="51" val="5"/>
+                <Visible Exp="7" id="61"/>
+                <Format id="82"/>
+                <ImageListFileName id="88" val="C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\images\Delete.png"/>
+                <ButtonStyle id="96" val="2"/>
+                <RaiseEvent id="234">
+                  <EventType val="I"/>
+                  <InternalEventID val="36"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="13"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="27" id="27">
+              <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+                <Placement bottom="5" id="20" left="100" right="5" top="100"/>
+                <X id="21" val="48"/>
+                <Y id="22" val="273"/>
+                <Width id="23" val="53"/>
+                <Height id="24" val="14"/>
+                <Format id="82" valUnicode="Ver Tabela"/>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="3"/>
+                </RaiseEvent>
                 <TabOrder id="314" val="14"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="25" id="25">
+              <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+                <Placement bottom="5" id="20" left="100" right="5" top="100"/>
+                <X id="21" val="120"/>
+                <Y id="22" val="273"/>
+                <Width id="23" val="83"/>
+                <Height id="24" val="14"/>
+                <Format id="82" valUnicode="Set Date and Time"/>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="2"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="15"/>
               </PropertyList>
             </Control>
           </FormEntry>
@@ -1125,6 +1202,11 @@
           </Event>
         </EVNT>
         <EVNT DESC="SetDateAndTime" FORCE_EXIT="C" id="2">
+          <Event>
+            <EventType val="N"/>
+          </Event>
+        </EVNT>
+        <EVNT DESC="VerTabela" FORCE_EXIT="N" id="3">
           <Event>
             <EventType val="N"/>
           </Event>

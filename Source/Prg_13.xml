@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Suppliers - Line Mode" ISN_2="1" LastIsn="1" id="13">
-          <LastModified _date="739440" _time="49466" date="08/07/2025" time="13:44:26"/>
+        <Header Description="Suppliers - Line Mode (tabela)" ISN_2="1" LastIsn="1" id="13">
+          <LastModified _date="739448" _time="34665" date="16/07/2025" time="09:37:45"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -200,11 +200,11 @@
         <TaskForms>
           <FormEntry _last_isn="5" _last_test_id="5" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
-              <Width id="23" val="255"/>
-              <Height id="24" val="132"/>
+              <Width id="23" val="241"/>
+              <Height id="24" val="121"/>
               <Wallpaper id="42" val="%WorkingDir%env\Wallpaper.jpg"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Suppliers - Line Mode"/>
+              <FormName id="311" valUnicode="Suppliers - Line Mode (tabela)"/>
               <WallpaperStyle id="448" val="5"/>
             </PropertyList>
             <Control _test_id="1" id="1">

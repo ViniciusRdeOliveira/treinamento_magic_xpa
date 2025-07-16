@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Countries" ISN_2="1" LastIsn="2" id="28">
-          <LastModified _date="739442" _time="59339" date="10/07/2025" time="16:28:59"/>
+          <LastModified _date="739448" _time="48112" date="16/07/2025" time="13:21:52"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -129,7 +129,7 @@
                   <INT_OLESUBFORM_INFO>
                     <v>6</v>
                   </INT_OLESUBFORM_INFO>
-                  <_DitIndexForToolkit val="5"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -142,7 +142,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="6"/>
+                  <_DitIndexForToolkit val="5"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -168,31 +168,11 @@
           <FormEntry _last_isn="6" _last_test_id="6" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
               <Model comp="-1" id="1" obj="3"/>
-              <Width id="23" val="555"/>
-              <Height id="24" val="239"/>
+              <Width id="23" val="275"/>
+              <Height id="24" val="417"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Countries"/>
             </PropertyList>
-            <Control PDOD="128" _test_id="6" id="6">
-              <PropertyList model="CTRL_RICH_CLIENT_SUBFORM">
-                <X id="21" val="260"/>
-                <Y id="22" val="6"/>
-                <Width id="23" val="271"/>
-                <Height id="24" val="186"/>
-                <ControlName id="46" val="Cities"/>
-                <Arguments id="126">
-                  <Arguments>
-                    <Argument>
-                      <Variable val="1"/>
-                      <Skip val="N"/>
-                    </Argument>
-                  </Arguments>
-                </Arguments>
-                <ConnectTo id="156" val="2"/>
-                <TaskNumber comp="-1" id="183" obj="2"/>
-                <TabOrder id="314" val="1"/>
-              </PropertyList>
-            </Control>
             <Control _test_id="1" id="1">
               <PropertyList model="CTRL_RICH_CLIENT_TABLE">
                 <Model comp="-1" id="1" obj="15"/>
@@ -236,7 +216,7 @@
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="Country_Code"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="2"/>
+                <TabOrder id="314" val="1"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
               </PropertyList>
@@ -253,16 +233,37 @@
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="Country_Name"/>
                 <_Style id="63" val="1"/>
-                <TabOrder id="314" val="3"/>
+                <TabOrder id="314" val="2"/>
                 <Border id="452"/>
                 <CornerRadius id="668"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="6" id="6">
+              <PropertyList model="CTRL_RICH_CLIENT_SUBFORM">
+                <Placement id="20" top="100"/>
+                <X id="21" val="17"/>
+                <Y id="22" val="199"/>
+                <Width id="23" val="233"/>
+                <Height id="24" val="184"/>
+                <ControlName id="46" val="Cities"/>
+                <Arguments id="126">
+                  <Arguments>
+                    <Argument>
+                      <Variable val="1"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                </Arguments>
+                <ConnectTo id="156" val="2"/>
+                <TaskNumber comp="-1" id="183" obj="2"/>
+                <TabOrder id="314" val="3"/>
               </PropertyList>
             </Control>
           </FormEntry>
         </TaskForms>
         <Task MainProgram="N">
           <Header Description="Cities" ISN_2="2" LastIsn="2" id="28">
-            <LastModified _date="739442" _time="54594" date="10/07/2025" time="15:09:54"/>
+            <LastModified _date="739448" _time="48112" date="16/07/2025" time="13:21:52"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -437,16 +438,16 @@
           <TaskForms>
             <FormEntry _last_isn="5" _last_test_id="5" id="1">
               <PropertyList model="FORM_RICH_CLIENT">
-                <Width id="23" val="491"/>
-                <Height id="24" val="261"/>
+                <Width id="23" val="247"/>
+                <Height id="24" val="189"/>
                 <Color id="51" val="5"/>
                 <_Comment id="218"/>
                 <FormName id="311" valUnicode="Cities"/>
               </PropertyList>
               <Control _test_id="1" id="1">
                 <PropertyList model="CTRL_RICH_CLIENT_TABLE">
-                  <X id="21" val="21"/>
-                  <Y id="22" val="15"/>
+                  <Placement id="20"/>
+                  <Y id="22" val="2"/>
                   <Width id="23" val="235"/>
                   <Height id="24" val="162"/>
                   <ControlName id="46"/>
@@ -478,8 +479,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                   <Model comp="-1" id="1" obj="14"/>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="23"/>
-                  <Y id="22" val="28"/>
+                  <X id="21" val="2"/>
+                  <Y id="22" val="15"/>
                   <Width id="23" val="55"/>
                   <Height id="24" val="12"/>
                   <ControlLayer id="25" val="1"/>
@@ -495,8 +496,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                   <Model comp="-1" id="1" obj="14"/>
                   <Placement bottom="100" id="20" right="100"/>
-                  <X id="21" val="83"/>
-                  <Y id="22" val="28"/>
+                  <X id="21" val="62"/>
+                  <Y id="22" val="15"/>
                   <Width id="23" val="153"/>
                   <Height id="24" val="12"/>
                   <ControlLayer id="25" val="2"/>

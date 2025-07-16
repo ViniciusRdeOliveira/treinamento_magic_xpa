@@ -4,7 +4,7 @@
   <Header>
     <Version val="14100.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="19"/>
+    <LastIsn val="20"/>
     <LastIsnFolder val="0"/>
   </Header>
 
@@ -76,6 +76,9 @@
         <PropertyList model="FIELD">
           <Model attr_obj="FIELD_LOGICAL" id="1"/>
           <_FieldStyle id="276" val="1"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_EDIT"/>
+          </RichClient>
         </PropertyList>
       </Object>
       <Object id="10" name="Amount">
@@ -170,6 +173,13 @@
               <Color id="51" val="6"/>
             </PropertyList>
           </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="20" name="Tables">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
         </PropertyList>
       </Object>
     </Models>
