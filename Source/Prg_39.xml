@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Seleciona Imagem" ISN_2="1" LastIsn="1" id="39">
-          <LastModified _date="739448" _time="57267" date="16/07/2025" time="15:54:27"/>
+          <LastModified _date="739448" _time="63250" date="16/07/2025" time="17:34:10"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,7 +29,7 @@
           <TaskType val="C"/>
           <Interactive val="Y"/>
           <External val="N"/>
-          <Offline val="Y"/>
+          <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>

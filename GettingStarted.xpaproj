@@ -29,6 +29,7 @@
     <Compile Include="Source\Helps.xml" />
     <Compile Include="Source\Menus.xml" />
     <Compile Include="Source\Models.xml" />
+    <Compile Include="Source\Prg_36.xml" />
     <Compile Include="Source\Progs.xml" />
     <Compile Include="Source\Rights.xml" />
     <Compile Include="Source\Prg_1.xml" />

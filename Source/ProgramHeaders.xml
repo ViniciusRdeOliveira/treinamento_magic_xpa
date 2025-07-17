@@ -345,28 +345,8 @@
       <SourceFileTimeStamp _date="739447" _time="75308" date="15/07/2025" time="20:55:08"/>
     </Program>
     <Program>
-      <Header Description=">>>>Inicial" ISN_2="1" LastIsn="2" id="32">
-        <LastModified _date="739448" _time="54095" date="16/07/2025" time="15:01:35"/>
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="C"/>
-        <Interactive val="Y"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-      </Header>
-      <SourceFileTimeStamp _date="739448" _time="64895" date="16/07/2025" time="18:01:35"/>
-    </Program>
-    <Program>
-      <Header Description="Funções do Dispositivo" ISN_2="1" LastIsn="1" id="36">
-        <LastModified _date="739448" _time="57133" date="16/07/2025" time="15:52:13"/>
+      <Header Description="&lt;&lt;&lt;&lt; Iniciar" ISN_2="1" LastIsn="2" id="32">
+        <LastModified _date="739449" _time="40548" date="17/07/2025" time="11:15:48"/>
         <Public val="RunMe"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
@@ -380,14 +360,34 @@
         <Interactive val="Y"/>
         <External val="Y"/>
         <Offline val="N"/>
-        <FormType val="D"/>
+        <FormType val="N"/>
         <DotNetObjectExists val="N"/>
       </Header>
-      <SourceFileTimeStamp _date="739448" _time="67933" date="16/07/2025" time="18:52:13"/>
+      <SourceFileTimeStamp _date="739449" _time="51348" date="17/07/2025" time="14:15:48"/>
+    </Program>
+    <Program>
+      <Header Description="Funções do Dispositivo" ISN_2="2" LastIsn="3" id="36">
+        <LastModified _date="739449" _time="41553" date="17/07/2025" time="11:32:33"/>
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="N"/>
+        <External val="N"/>
+        <Offline val="Y"/>
+        <FormType val="M"/>
+        <DotNetObjectExists val="N"/>
+      </Header>
+      <SourceFileTimeStamp _date="739449" _time="52036" date="17/07/2025" time="14:27:16"/>
     </Program>
     <Program>
       <Header Description="Seleciona Imagem" ISN_2="1" LastIsn="1" id="39">
-        <LastModified _date="739448" _time="57267" date="16/07/2025" time="15:54:27"/>
+        <LastModified _date="739448" _time="63250" date="16/07/2025" time="17:34:10"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -402,11 +402,11 @@
         <TaskType val="C"/>
         <Interactive val="Y"/>
         <External val="N"/>
-        <Offline val="Y"/>
+        <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
       </Header>
-      <SourceFileTimeStamp _date="739448" _time="68067" date="16/07/2025" time="18:54:27"/>
+      <SourceFileTimeStamp _date="739448" _time="74050" date="16/07/2025" time="20:34:10"/>
     </Program>
     <Program>
       <Header Description="Abre Navegador" ISN_2="1" LastIsn="1" id="40">
@@ -430,25 +430,6 @@
         <DotNetObjectExists val="N"/>
       </Header>
       <SourceFileTimeStamp _date="739447" _time="70863" date="15/07/2025" time="19:41:03"/>
-    </Program>
-    <Program>
-      <Header ISN_2="1" LastIsn="1" id="41">
-        <LastModified _date="739448" _time="40924" date="16/07/2025" time="11:22:04"/>
-        <ExecutionRight comp="-1"/>
-        <Resident val="N"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <ParametersAttributes/>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-      </Header>
-      <SourceFileTimeStamp _date="739448" _time="51724" date="16/07/2025" time="14:22:04"/>
     </Program>
   </ProgramsRepositoryHeaders>
 

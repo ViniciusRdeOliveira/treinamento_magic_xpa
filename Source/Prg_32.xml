@@ -13,8 +13,9 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description=">>>>Inicial" ISN_2="1" LastIsn="2" id="32">
-          <LastModified _date="739448" _time="54095" date="16/07/2025" time="15:01:35"/>
+        <Header Description="&lt;&lt;&lt;&lt; Iniciar" ISN_2="1" LastIsn="2" id="32">
+          <LastModified _date="739449" _time="40548" date="17/07/2025" time="11:15:48"/>
+          <Public val="RunMe"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -25,7 +26,7 @@
           <SqlWhereExist val="N"/>
           <TaskType val="C"/>
           <Interactive val="Y"/>
-          <External val="N"/>
+          <External val="Y"/>
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
@@ -151,7 +152,7 @@
               <GridY id="39" val="12"/>
               <Wallpaper id="42" val="C:\meuMagic\MSE\Magic xpa 4.10 Single User Edition\Projects\GettingStarted\env\Wallpaper3.png"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode=">>>>Inicial"/>
+              <FormName id="311" valUnicode="&lt;&lt;&lt;&lt; Inicial"/>
               <WindowType id="358" val="2"/>
               <_PulldownMenu comp="-1" id="441" obj="4"/>
               <_ContextMenu comp="-1" id="442" obj="4"/>
