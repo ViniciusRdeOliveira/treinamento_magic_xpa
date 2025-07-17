@@ -25,6 +25,18 @@
         <Type Val="4"/>
         <OperationIsn Val="143"/>
       </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="6"/>
+      </ExpandedItem>
+    </Program>
+    <Program PrgIsn="40">
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="3"/>
+      </ExpandedItem>
     </Program>
   </ExpandedItems>
 
@@ -36,6 +48,10 @@
     <VisitedTask>
       <PrgIsn Val="36"/>
       <TaskIsn Val="2"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="40"/>
+      <TaskIsn Val="1"/>
     </VisitedTask>
   </VisitedTasks>
 

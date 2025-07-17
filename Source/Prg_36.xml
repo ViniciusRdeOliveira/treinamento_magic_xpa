@@ -13,8 +13,9 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Funções do Dispositivo" ISN_2="2" LastIsn="3" id="36">
-          <LastModified _date="739449" _time="41553" date="17/07/2025" time="11:32:33"/>
+        <Header Description="Funções do Dispositivo" ISN_2="2" LastIsn="2" id="36">
+          <LastModified _date="739449" _time="51232" date="17/07/2025" time="14:13:52"/>
+          <Public val="RunMe"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -25,7 +26,7 @@
           <SqlWhereExist val="N"/>
           <TaskType val="C"/>
           <Interactive val="N"/>
-          <External val="N"/>
+          <External val="Y"/>
           <Offline val="Y"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
@@ -229,8 +230,8 @@
           </Expression>
         </Expressions>
         <Task MainProgram="N">
-          <Header Description="Funções do Dispositivo" ISN_2="1" LastIsn="3" id="36">
-            <LastModified _date="739449" _time="41553" date="17/07/2025" time="11:32:33"/>
+          <Header Description="Funções do Dispositivo" ISN_2="1" LastIsn="2" id="36">
+            <LastModified _date="739449" _time="51232" date="17/07/2025" time="14:13:52"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -246,7 +247,7 @@
             <DotNetObjectExists val="N"/>
           </Header>
           <DISPLAY val="9"/>
-          <ItemIsn val="18"/>
+          <ItemIsn val="19"/>
           <Resource>
             <Columns>
               <Column id="1" name="device_os">
@@ -469,7 +470,7 @@
                     <Type val="V"/>
                     <ExposedToRoute val="N"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="2"/>
+                    <_DitIndexForToolkit val="3"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -521,7 +522,7 @@
                     <Type val="V"/>
                     <ExposedToRoute val="N"/>
                     <IsParameter val="N"/>
-                    <_DitIndexForToolkit val="10"/>
+                    <_DitIndexForToolkit val="11"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -1090,6 +1091,29 @@
                     <Direction val="C"/>
                   </Invoke>
                 </LogicLine>
+                <LogicLine>
+                  <CallTask FlowIsn="181">
+                    <OperationType val="P"/>
+                    <Event>
+                      <EventType val="N"/>
+                    </Event>
+                    <TaskID comp="-1" obj="40"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <Variable val="18"/>
+                        <Skip val="N"/>
+                      </Argument>
+                    </Arguments>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <RetainFocus val="N"/>
+                    <Disabled val="1"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </CallTask>
+                </LogicLine>
               </LogicLines>
             </LogicUnit>
           </TaskLogic>
@@ -1097,7 +1121,7 @@
             <FormEntry _last_isn="26" _last_test_id="26" id="1">
               <PropertyList model="FORM_RICH_CLIENT">
                 <Model comp="-1" id="1" obj="3"/>
-                <Width id="23" val="239"/>
+                <Width id="23" val="217"/>
                 <Height id="24" val="274"/>
                 <_Comment id="218"/>
                 <FormName id="311" valUnicode="Funções do Dispositivo #1"/>
@@ -1105,7 +1129,7 @@
               <Control _test_id="17" id="17">
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Text id="19" valUnicode="Informações do Dispositivo"/>
-                  <X id="21" val="51"/>
+                  <X id="21" val="39"/>
                   <Y id="22" val="5"/>
                   <Width id="23" val="127"/>
                   <Height id="24" val="9"/>
@@ -1115,12 +1139,25 @@
                   <GradientStyle id="481" val="1"/>
                 </PropertyList>
               </Control>
+              <Control _test_id="4" id="4">
+                <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+                  <Model comp="-1" id="1" obj="4"/>
+                  <Text id="19" valUnicode="device_os"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="75"/>
+                  <Width id="23" val="49"/>
+                  <Height id="24" val="9"/>
+                  <Style id="63" val="7"/>
+                  <HorizontalAlignment id="65" val="1"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
               <Control _test_id="3" id="3">
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                   <Model comp="-1" id="1" obj="14"/>
                   <Placement id="20" right="100"/>
-                  <X id="21" val="151"/>
-                  <Y id="22" val="67"/>
+                  <X id="21" val="139"/>
+                  <Y id="22" val="75"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="1" id="43"/>
@@ -1132,25 +1169,12 @@
                   <CornerRadius id="668" val="5"/>
                 </PropertyList>
               </Control>
-              <Control _test_id="4" id="4">
-                <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                  <Model comp="-1" id="1" obj="4"/>
-                  <Text id="19" valUnicode="device_os"/>
-                  <X id="21" val="19"/>
-                  <Y id="22" val="71"/>
-                  <Width id="23" val="49"/>
-                  <Height id="24" val="9"/>
-                  <Style id="63" val="7"/>
-                  <HorizontalAlignment id="65" val="1"/>
-                  <_Orientation id="143"/>
-                </PropertyList>
-              </Control>
               <Control _test_id="6" id="6">
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_screen_width"/>
-                  <X id="21" val="19"/>
-                  <Y id="22" val="93"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="97"/>
                   <Width id="23" val="98"/>
                   <Height id="24" val="9"/>
                   <Style id="63" val="7"/>
@@ -1162,8 +1186,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                   <Model comp="-1" id="1" obj="14"/>
                   <Placement id="20" right="100"/>
-                  <X id="21" val="151"/>
-                  <Y id="22" val="93"/>
+                  <X id="21" val="139"/>
+                  <Y id="22" val="97"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="2" id="43"/>
@@ -1179,8 +1203,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_screen_height"/>
-                  <X id="21" val="19"/>
-                  <Y id="22" val="115"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="119"/>
                   <Width id="23" val="103"/>
                   <Height id="24" val="9"/>
                   <Style id="63" val="7"/>
@@ -1192,8 +1216,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                   <Model comp="-1" id="1" obj="14"/>
                   <Placement id="20" right="100"/>
-                  <X id="21" val="151"/>
-                  <Y id="22" val="115"/>
+                  <X id="21" val="139"/>
+                  <Y id="22" val="119"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="3" id="43"/>
@@ -1209,8 +1233,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_orientation"/>
-                  <X id="21" val="19"/>
-                  <Y id="22" val="134"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="141"/>
                   <Width id="23" val="87"/>
                   <Height id="24" val="9"/>
                   <Style id="63" val="7"/>
@@ -1222,8 +1246,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                   <Model comp="-1" id="1" obj="14"/>
                   <Placement id="20" right="100"/>
-                  <X id="21" val="151"/>
-                  <Y id="22" val="134"/>
+                  <X id="21" val="139"/>
+                  <Y id="22" val="141"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="4" id="43"/>
@@ -1235,12 +1259,25 @@
                   <CornerRadius id="668" val="5"/>
                 </PropertyList>
               </Control>
+              <Control _test_id="12" id="12">
+                <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+                  <Model comp="-1" id="1" obj="4"/>
+                  <Text id="19" valUnicode="device_os_version"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="163"/>
+                  <Width id="23" val="89"/>
+                  <Height id="24" val="9"/>
+                  <Style id="63" val="7"/>
+                  <HorizontalAlignment id="65" val="1"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
               <Control _test_id="11" id="11">
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                   <Model comp="-1" id="1" obj="14"/>
                   <Placement id="20" right="100"/>
-                  <X id="21" val="151"/>
-                  <Y id="22" val="154"/>
+                  <X id="21" val="139"/>
+                  <Y id="22" val="163"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="5" id="43"/>
@@ -1252,25 +1289,12 @@
                   <CornerRadius id="668" val="5"/>
                 </PropertyList>
               </Control>
-              <Control _test_id="12" id="12">
-                <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                  <Model comp="-1" id="1" obj="4"/>
-                  <Text id="19" valUnicode="device_os_version"/>
-                  <X id="21" val="19"/>
-                  <Y id="22" val="157"/>
-                  <Width id="23" val="89"/>
-                  <Height id="24" val="9"/>
-                  <Style id="63" val="7"/>
-                  <HorizontalAlignment id="65" val="1"/>
-                  <_Orientation id="143"/>
-                </PropertyList>
-              </Control>
               <Control _test_id="14" id="14">
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_model"/>
-                  <X id="21" val="19"/>
-                  <Y id="22" val="183"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="185"/>
                   <Width id="23" val="67"/>
                   <Height id="24" val="9"/>
                   <Style id="63" val="7"/>
@@ -1282,8 +1306,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                   <Model comp="-1" id="1" obj="14"/>
                   <Placement id="20" right="100"/>
-                  <X id="21" val="151"/>
-                  <Y id="22" val="183"/>
+                  <X id="21" val="139"/>
+                  <Y id="22" val="185"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="6" id="43"/>
@@ -1299,8 +1323,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_magic_version"/>
-                  <X id="21" val="19"/>
-                  <Y id="22" val="204"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="207"/>
                   <Width id="23" val="105"/>
                   <Height id="24" val="9"/>
                   <Style id="63" val="7"/>
@@ -1312,8 +1336,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                   <Model comp="-1" id="1" obj="14"/>
                   <Placement id="20" right="100"/>
-                  <X id="21" val="151"/>
-                  <Y id="22" val="204"/>
+                  <X id="21" val="139"/>
+                  <Y id="22" val="207"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="7" id="43"/>
@@ -1329,8 +1353,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_location"/>
-                  <X id="21" val="19"/>
-                  <Y id="22" val="227"/>
+                  <X id="21" val="8"/>
+                  <Y id="22" val="229"/>
                   <Width id="23" val="75"/>
                   <Height id="24" val="9"/>
                   <Style id="63" val="7"/>
@@ -1341,8 +1365,8 @@
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                   <Model comp="-1" id="1" obj="14"/>
                   <Placement id="20" right="100"/>
-                  <X id="21" val="151"/>
-                  <Y id="22" val="227"/>
+                  <X id="21" val="139"/>
+                  <Y id="22" val="229"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="8" id="43"/>
@@ -1359,7 +1383,7 @@
                   <Model ID="MODEL_RICH_CLIENT" id="1">
                     <Var FieldID="9"/>
                   </Model>
-                  <X id="21" val="83"/>
+                  <X id="21" val="71"/>
                   <Y id="22" val="22"/>
                   <Width id="23" val="70"/>
                   <Height id="24" val="12"/>
@@ -1372,8 +1396,8 @@
               </Control>
               <Control PDOD="128" _test_id="21" id="21">
                 <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                  <Placement bottom="5" id="20" right="5"/>
-                  <X id="21" val="35"/>
+                  <Placement bottom="5" id="20" left="50" right="10"/>
+                  <X id="21" val="23"/>
                   <Y id="22" val="44"/>
                   <Width id="23" val="40"/>
                   <Height id="24" val="14"/>
@@ -1388,8 +1412,8 @@
               </Control>
               <Control PDOD="128" _test_id="23" id="23">
                 <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                  <Placement bottom="5" id="20" right="5"/>
-                  <X id="21" val="97"/>
+                  <Placement bottom="5" id="20" left="50" right="10"/>
+                  <X id="21" val="85"/>
                   <Y id="22" val="44"/>
                   <Width id="23" val="40"/>
                   <Height id="24" val="14"/>
@@ -1404,8 +1428,8 @@
               </Control>
               <Control PDOD="128" _test_id="24" id="24">
                 <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                  <Placement bottom="5" id="20" right="5"/>
-                  <X id="21" val="159"/>
+                  <Placement bottom="5" id="20" left="50" right="10"/>
+                  <X id="21" val="147"/>
                   <Y id="22" val="44"/>
                   <Width id="23" val="40"/>
                   <Height id="24" val="14"/>
@@ -1423,7 +1447,7 @@
           <TaskForms>
             <FormEntry _last_isn="20" _last_test_id="20" id="2">
               <PropertyList model="FORM_RICH_CLIENT">
-                <Width id="23" val="640"/>
+                <Width id="23" val="595"/>
                 <Wallpaper id="42" val="%WorkingDir%images\Wallpaper.jpg"/>
                 <_Comment id="218"/>
                 <FormName id="311" valUnicode="Funções do Dispositivo #2"/>
@@ -1431,15 +1455,14 @@
               </PropertyList>
               <Control _test_id="5" id="5">
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                  <Model ID="MODEL_RICH_CLIENT" id="1">
-                    <Var FieldID="6"/>
-                  </Model>
-                  <X id="21" val="520"/>
+                  <Model comp="-1" id="1" obj="14"/>
+                  <X id="21" val="515"/>
                   <Y id="22" val="52"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="6" id="43"/>
                   <ControlName id="46" val="device_model"/>
+                  <HorizontalAlignment id="65" val="1"/>
                   <TabOrder id="314" val="5"/>
                 </PropertyList>
               </Control>
@@ -1447,7 +1470,7 @@
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_os"/>
-                  <X id="21" val="19"/>
+                  <X id="21" val="7"/>
                   <Y id="22" val="55"/>
                   <Width id="23" val="49"/>
                   <Height id="24" val="9"/>
@@ -1457,15 +1480,14 @@
               </Control>
               <Control _test_id="1" id="1">
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                  <Model ID="MODEL_RICH_CLIENT" id="1">
-                    <Var FieldID="1"/>
-                  </Model>
-                  <X id="21" val="113"/>
+                  <Model comp="-1" id="1" obj="14"/>
+                  <X id="21" val="101"/>
                   <Y id="22" val="55"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="1" id="43"/>
                   <ControlName id="46" val="device_os"/>
+                  <HorizontalAlignment id="65" val="1"/>
                   <TabOrder id="314" val="6"/>
                 </PropertyList>
               </Control>
@@ -1473,7 +1495,7 @@
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_os_version"/>
-                  <X id="21" val="201"/>
+                  <X id="21" val="208"/>
                   <Y id="22" val="55"/>
                   <Width id="23" val="89"/>
                   <Height id="24" val="9"/>
@@ -1483,15 +1505,14 @@
               </Control>
               <Control _test_id="3" id="3">
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                  <Model ID="MODEL_RICH_CLIENT" id="1">
-                    <Var FieldID="5"/>
-                  </Model>
-                  <X id="21" val="325"/>
+                  <Model comp="-1" id="1" obj="14"/>
+                  <X id="21" val="313"/>
                   <Y id="22" val="55"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="5" id="43"/>
                   <ControlName id="46" val="device_os_version"/>
+                  <HorizontalAlignment id="65" val="1"/>
                   <TabOrder id="314" val="7"/>
                 </PropertyList>
               </Control>
@@ -1499,7 +1520,7 @@
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_model"/>
-                  <X id="21" val="417"/>
+                  <X id="21" val="413"/>
                   <Y id="22" val="55"/>
                   <Width id="23" val="67"/>
                   <Height id="24" val="9"/>
@@ -1507,37 +1528,11 @@
                   <_Orientation id="143"/>
                 </PropertyList>
               </Control>
-              <Control _test_id="13" id="13">
-                <PropertyList model="CTRL_RICH_CLIENT_LABEL">
-                  <Model comp="-1" id="1" obj="4"/>
-                  <Text id="19" valUnicode="device_screen_width"/>
-                  <X id="21" val="417"/>
-                  <Y id="22" val="101"/>
-                  <Width id="23" val="98"/>
-                  <Height id="24" val="9"/>
-                  <Style id="63" val="7"/>
-                  <_Orientation id="143"/>
-                </PropertyList>
-              </Control>
-              <Control _test_id="12" id="12">
-                <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                  <Model ID="MODEL_RICH_CLIENT" id="1">
-                    <Var FieldID="2"/>
-                  </Model>
-                  <X id="21" val="527"/>
-                  <Y id="22" val="101"/>
-                  <Width id="23" val="57"/>
-                  <Height id="24" val="12"/>
-                  <Data FieldID="2" id="43"/>
-                  <ControlName id="46" val="device_screen_width"/>
-                  <TabOrder id="314" val="8"/>
-                </PropertyList>
-              </Control>
               <Control _test_id="8" id="8">
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_location"/>
-                  <X id="21" val="19"/>
+                  <X id="21" val="7"/>
                   <Y id="22" val="104"/>
                   <Width id="23" val="75"/>
                   <Height id="24" val="9"/>
@@ -1547,23 +1542,23 @@
               </Control>
               <Control _test_id="7" id="7">
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                  <Model ID="MODEL_RICH_CLIENT" id="1">
-                    <Var FieldID="8"/>
-                  </Model>
-                  <X id="21" val="113"/>
+                  <Model comp="-1" id="1" obj="14"/>
+                  <Placement id="20" left="100" right="50"/>
+                  <X id="21" val="78"/>
                   <Y id="22" val="104"/>
-                  <Width id="23" val="57"/>
+                  <Width id="23" val="101"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="8" id="43"/>
                   <ControlName id="46" val="device_location"/>
-                  <TabOrder id="314" val="9"/>
+                  <HorizontalAlignment id="65" val="1"/>
+                  <TabOrder id="314" val="8"/>
                 </PropertyList>
               </Control>
               <Control _test_id="15" id="15">
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_screen_height"/>
-                  <X id="21" val="203"/>
+                  <X id="21" val="210"/>
                   <Y id="22" val="104"/>
                   <Width id="23" val="103"/>
                   <Height id="24" val="9"/>
@@ -1573,29 +1568,52 @@
               </Control>
               <Control _test_id="14" id="14">
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                  <Model ID="MODEL_RICH_CLIENT" id="1">
-                    <Var FieldID="3"/>
-                  </Model>
-                  <X id="21" val="325"/>
+                  <Model comp="-1" id="1" obj="14"/>
+                  <X id="21" val="313"/>
                   <Y id="22" val="104"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
                   <Data FieldID="3" id="43"/>
                   <ControlName id="46" val="device_screen_height"/>
+                  <HorizontalAlignment id="65" val="1"/>
+                  <TabOrder id="314" val="9"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="13" id="13">
+                <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+                  <Model comp="-1" id="1" obj="4"/>
+                  <Text id="19" valUnicode="device_screen_width"/>
+                  <X id="21" val="413"/>
+                  <Y id="22" val="104"/>
+                  <Width id="23" val="98"/>
+                  <Height id="24" val="9"/>
+                  <Style id="63" val="7"/>
+                  <_Orientation id="143"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="12" id="12">
+                <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+                  <Model comp="-1" id="1" obj="14"/>
+                  <X id="21" val="515"/>
+                  <Y id="22" val="104"/>
+                  <Width id="23" val="57"/>
+                  <Height id="24" val="12"/>
+                  <Data FieldID="2" id="43"/>
+                  <ControlName id="46" val="device_screen_width"/>
+                  <HorizontalAlignment id="65" val="1"/>
                   <TabOrder id="314" val="10"/>
                 </PropertyList>
               </Control>
-              <Control _test_id="10" id="10">
+              <Control _test_id="16" id="16">
                 <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                  <Model ID="MODEL_RICH_CLIENT" id="1">
-                    <Var FieldID="4"/>
-                  </Model>
-                  <X id="21" val="113"/>
+                  <Model comp="-1" id="1" obj="14"/>
+                  <X id="21" val="313"/>
                   <Y id="22" val="151"/>
                   <Width id="23" val="57"/>
                   <Height id="24" val="12"/>
-                  <Data FieldID="4" id="43"/>
-                  <ControlName id="46" val="device_orientation"/>
+                  <Data FieldID="7" id="43"/>
+                  <ControlName id="46" val="device_magic_version"/>
+                  <HorizontalAlignment id="65" val="1"/>
                   <TabOrder id="314" val="11"/>
                 </PropertyList>
               </Control>
@@ -1603,7 +1621,7 @@
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_orientation"/>
-                  <X id="21" val="19"/>
+                  <X id="21" val="7"/>
                   <Y id="22" val="154"/>
                   <Width id="23" val="87"/>
                   <Height id="24" val="9"/>
@@ -1611,11 +1629,24 @@
                   <_Orientation id="143"/>
                 </PropertyList>
               </Control>
+              <Control _test_id="10" id="10">
+                <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+                  <Model comp="-1" id="1" obj="14"/>
+                  <X id="21" val="98"/>
+                  <Y id="22" val="154"/>
+                  <Width id="23" val="57"/>
+                  <Height id="24" val="12"/>
+                  <Data FieldID="4" id="43"/>
+                  <ControlName id="46" val="device_orientation"/>
+                  <HorizontalAlignment id="65" val="1"/>
+                  <TabOrder id="314" val="12"/>
+                </PropertyList>
+              </Control>
               <Control _test_id="17" id="17">
                 <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                   <Model comp="-1" id="1" obj="4"/>
                   <Text id="19" valUnicode="device_magic_version"/>
-                  <X id="21" val="201"/>
+                  <X id="21" val="208"/>
                   <Y id="22" val="154"/>
                   <Width id="23" val="105"/>
                   <Height id="24" val="9"/>
@@ -1623,26 +1654,12 @@
                   <_Orientation id="143"/>
                 </PropertyList>
               </Control>
-              <Control _test_id="16" id="16">
-                <PropertyList model="CTRL_RICH_CLIENT_EDIT">
-                  <Model ID="MODEL_RICH_CLIENT" id="1">
-                    <Var FieldID="7"/>
-                  </Model>
-                  <X id="21" val="325"/>
-                  <Y id="22" val="154"/>
-                  <Width id="23" val="57"/>
-                  <Height id="24" val="12"/>
-                  <Data FieldID="7" id="43"/>
-                  <ControlName id="46" val="device_magic_version"/>
-                  <TabOrder id="314" val="12"/>
-                </PropertyList>
-              </Control>
               <Control PDOD="192" _test_id="9" id="9">
                 <PropertyList model="CTRL_RICH_CLIENT_CHECKBOX">
                   <Model ID="MODEL_RICH_CLIENT" id="1">
                     <Var FieldID="9"/>
                   </Model>
-                  <X id="21" val="279"/>
+                  <X id="21" val="267"/>
                   <Y id="22" val="6"/>
                   <Width id="23" val="70"/>
                   <Height id="24" val="12"/>
@@ -1655,8 +1672,8 @@
               </Control>
               <Control PDOD="128" _test_id="18" id="18">
                 <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                  <Placement bottom="5" id="20" left="20" right="10"/>
-                  <X id="21" val="56"/>
+                  <Placement bottom="5" id="20" left="50" right="10"/>
+                  <X id="21" val="44"/>
                   <Y id="22" val="24"/>
                   <Width id="23" val="40"/>
                   <Height id="24" val="14"/>
@@ -1670,10 +1687,10 @@
               </Control>
               <Control PDOD="128" _test_id="19" id="19">
                 <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                  <Placement bottom="5" id="20" left="20" right="10"/>
-                  <X id="21" val="284"/>
+                  <Placement bottom="5" id="20" left="50" right="10"/>
+                  <X id="21" val="272"/>
                   <Y id="22" val="24"/>
-                  <Width id="23" val="44"/>
+                  <Width id="23" val="49"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="Telefone"/>
                   <RaiseEvent id="234">
@@ -1685,10 +1702,10 @@
               </Control>
               <Control PDOD="128" _test_id="20" id="20">
                 <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
-                  <Placement bottom="5" id="20" left="20" right="10"/>
-                  <X id="21" val="512"/>
+                  <Placement bottom="5" id="20" left="50" right="10"/>
+                  <X id="21" val="500"/>
                   <Y id="22" val="24"/>
-                  <Width id="23" val="27"/>
+                  <Width id="23" val="31"/>
                   <Height id="24" val="14"/>
                   <Format id="82" valUnicode="GPS"/>
                   <RaiseEvent id="234">
@@ -1806,7 +1823,7 @@
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="25">
-              <ExpSyntax val=""/>
+              <ExpSyntax val="{0,18}"/>
               <ExpAttribute val="A"/>
             </Expression>
           </Expressions>

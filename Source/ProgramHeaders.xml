@@ -346,8 +346,7 @@
     </Program>
     <Program>
       <Header Description="&lt;&lt;&lt;&lt; Iniciar" ISN_2="1" LastIsn="2" id="32">
-        <LastModified _date="739449" _time="40548" date="17/07/2025" time="11:15:48"/>
-        <Public val="RunMe"/>
+        <LastModified _date="739449" _time="49871" date="17/07/2025" time="13:51:11"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -358,16 +357,17 @@
         <SqlWhereExist val="N"/>
         <TaskType val="C"/>
         <Interactive val="Y"/>
-        <External val="Y"/>
+        <External val="N"/>
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
       </Header>
-      <SourceFileTimeStamp _date="739449" _time="51348" date="17/07/2025" time="14:15:48"/>
+      <SourceFileTimeStamp _date="739449" _time="60671" date="17/07/2025" time="16:51:11"/>
     </Program>
     <Program>
-      <Header Description="Funções do Dispositivo" ISN_2="2" LastIsn="3" id="36">
-        <LastModified _date="739449" _time="41553" date="17/07/2025" time="11:32:33"/>
+      <Header Description="Funções do Dispositivo" ISN_2="2" LastIsn="2" id="36">
+        <LastModified _date="739449" _time="51232" date="17/07/2025" time="14:13:52"/>
+        <Public val="RunMe"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -378,12 +378,12 @@
         <SqlWhereExist val="N"/>
         <TaskType val="C"/>
         <Interactive val="N"/>
-        <External val="N"/>
+        <External val="Y"/>
         <Offline val="Y"/>
         <FormType val="M"/>
         <DotNetObjectExists val="N"/>
       </Header>
-      <SourceFileTimeStamp _date="739449" _time="52036" date="17/07/2025" time="14:27:16"/>
+      <SourceFileTimeStamp _date="739449" _time="61996" date="17/07/2025" time="17:13:16"/>
     </Program>
     <Program>
       <Header Description="Seleciona Imagem" ISN_2="1" LastIsn="1" id="39">
@@ -410,7 +410,7 @@
     </Program>
     <Program>
       <Header Description="Abre Navegador" ISN_2="1" LastIsn="1" id="40">
-        <LastModified _date="739447" _time="60063" date="15/07/2025" time="16:41:03"/>
+        <LastModified _date="739449" _time="49993" date="17/07/2025" time="13:53:13"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -429,7 +429,7 @@
         <FormType val="M"/>
         <DotNetObjectExists val="N"/>
       </Header>
-      <SourceFileTimeStamp _date="739447" _time="70863" date="15/07/2025" time="19:41:03"/>
+      <SourceFileTimeStamp _date="739449" _time="60793" date="17/07/2025" time="16:53:13"/>
     </Program>
   </ProgramsRepositoryHeaders>
 

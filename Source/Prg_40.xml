@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Abre Navegador" ISN_2="1" LastIsn="1" id="40">
-          <LastModified _date="739447" _time="60063" date="15/07/2025" time="16:41:03"/>
+          <LastModified _date="739449" _time="49993" date="17/07/2025" time="13:53:13"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -127,7 +127,6 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="Y"/>
-                  <_DitIndexForToolkit val="1"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -138,7 +137,7 @@
           </LogicUnit>
           <LogicUnit id="3" propagate="78">
             <Level val="R"/>
-            <Type val="S"/>
+            <Type val="P"/>
             <Scope val="S"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
@@ -153,9 +152,8 @@
                   <OperationType val="O"/>
                   <Command val="1"/>
                   <Wait val="N"/>
-                  <Show val="1"/>
-                  <FieldID val="1"/>
-                  <ExecuteOn_ val="S"/>
+                  <Show val="2"/>
+                  <ExecuteOn_ val="C"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -171,15 +169,16 @@
               <_Comment id="218"/>
               <FormName id="311" valUnicode="Abre Navegador"/>
             </PropertyList>
-            <Control PDOD="128" _test_id="1" id="1">
+            <Control _test_id="1" id="1">
               <PropertyList model="CTRL_RICH_CLIENT_BROWSER">
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="9"/>
                 <Y id="22" val="7"/>
                 <Width id="23" val="292"/>
                 <Height id="24" val="110"/>
-                <Data FieldID="1" id="43"/>
+                <Data Exp="2" id="43"/>
                 <ControlName id="46" val="p.URL"/>
+                <Attribute id="83" val="85"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
@@ -188,6 +187,10 @@
         <Expressions>
           <Expression id="1">
             <ExpSyntax val="{0,1}"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="2">
+            <ExpSyntax val="'https://google.com'"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
